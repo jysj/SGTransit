@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SG Transit</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="search_hint">Bus Stop</string>
+    <string name="search_title">Bus Stop</string>
+    <string name="splash_no_network">No Network Connection. Please Turn on Mobile Data or WiFi. Application Exiting.... </string>
+    <string name="splash_check_network">Checking Network Connection. Please Wait.... </string>
+</resources>

@@ -1,0 +1,529 @@
+{
+"d": [
+{
+"__metadata": {
+"uri": "http:\/\/datamall.mytransport.sg\/LTAoDataService.svc\/SMRTRouteSet(85854715)",
+"type": "LTAModel.SMRTRoute"
+},
+"SMRTRouteID": "85854715",
+"SR_SVC_NUM": "590",
+"SR_SVC_DIR": "1",
+"SR_ROUT_SEQ": "1",
+"SR_BS_CODE": "45421",
+"SR_EXP_CODE": "",
+"SR_DISTANCE": "0",
+"SR_FST_WD": "0740",
+"SR_LST_WD": "0750",
+"SR_FST_SAT": "-",
+"SR_LST_SAT": "-",
+"SR_FST_SUN": "-",
+"SR_LST_SUN": "-",
+"Summary": "SR_SVC_NUM: 590 SR_SVC_DIR: 1 SR_BS_CODE: 45421 ",
+"CreateDate": "\/Date(1428319918570)\/"
+},
+{
+"__metadata": {
+"uri": "http:\/\/datamall.mytransport.sg\/LTAoDataService.svc\/SMRTRouteSet(85854716)",
+"type": "LTAModel.SMRTRoute"
+},
+"SMRTRouteID": "85854716",
+"SR_SVC_NUM": "590",
+"SR_SVC_DIR": "1",
+"SR_ROUT_SEQ": "2",
+"SR_BS_CODE": "45439",
+"SR_EXP_CODE": "",
+"SR_DISTANCE": "0.2",
+"SR_FST_WD": "0741",
+"SR_LST_WD": "0751",
+"SR_FST_SAT": "-",
+"SR_LST_SAT": "-",
+"SR_FST_SUN": "-",
+"SR_LST_SUN": "-",
+"Summary": "SR_SVC_NUM: 590 SR_SVC_DIR: 1 SR_BS_CODE: 45439 ",
+"CreateDate": "\/Date(1428319918577)\/"
+},
+{
+"__metadata": {
+"uri": "http:\/\/datamall.mytransport.sg\/LTAoDataService.svc\/SMRTRouteSet(85854717)",
+"type": "LTAModel.SMRTRoute"
+},
+"SMRTRouteID": "85854717",
+"SR_SVC_NUM": "590",
+"SR_SVC_DIR": "1",
+"SR_ROUT_SEQ": "3",
+"SR_BS_CODE": "E4451",
+"SR_EXP_CODE": "N",
+"SR_DISTANCE": "-",
+"SR_FST_WD": "0741",
+"SR_LST_WD": "0751",
+"SR_FST_SAT": "-",
+"SR_LST_SAT": "-",
+"SR_FST_SUN": "-",
+"SR_LST_SUN": "-",
+"Summary": "SR_SVC_NUM: 590 SR_SVC_DIR: 1 SR_BS_CODE: E4451 ",
+"CreateDate": "\/Date(1428319918580)\/"
+},
+{
+"__metadata": {
+"uri": "http:\/\/datamall.mytransport.sg\/LTAoDataService.svc\/SMRTRouteSet(85854718)",
+"type": "LTAModel.SMRTRoute"
+},
+"SMRTRouteID": "85854718",
+"SR_SVC_NUM": "590",
+"SR_SVC_DIR": "1",
+"SR_ROUT_SEQ": "4",
+"SR_BS_CODE": "E4406",
+"SR_EXP_CODE": "N",
+"SR_DISTANCE": "-",
+"SR_FST_WD": "0741",
+"SR_LST_WD": "0751",
+"SR_FST_SAT": "-",
+"SR_LST_SAT": "-",
+"SR_FST_SUN": "-",
+"SR_LST_SUN": "-",
+"Summary": "SR_SVC_NUM: 590 SR_SVC_DIR: 1 SR_BS_CODE: E4406 ",
+"CreateDate": "\/Date(1428319918587)\/"
+},
+{
+"__metadata": {
+"uri": "http:\/\/datamall.mytransport.sg\/LTAoDataService.svc\/SMRTRouteSet(85854719)",
+"type": "LTAModel.SMRTRoute"
+},
+"SMRTRouteID": "85854719",
+"SR_SVC_NUM": "590",
+"SR_SVC_DIR": "1",
+"SR_ROUT_SEQ": "5",
+"SR_BS_CODE": "45371",
+"SR_EXP_CODE": "",
+"SR_DISTANCE": "1.7",
+"SR_FST_WD": "0745",
+"SR_LST_WD": "0755",
+"SR_FST_SAT": "-",
+"SR_LST_SAT": "-",
+"SR_FST_SUN": "-",
+"SR_LST_SUN": "-",
+"Summary": "SR_SVC_NUM: 590 SR_SVC_DIR: 1 SR_BS_CODE: 45371 ",
+"CreateDate": "\/Date(1428319918593)\/"
+},
+{
+"__metadata": {
+"uri": "http:\/\/datamall.mytransport.sg\/LTAoDataService.svc\/SMRTRouteSet(85854720)",
+"type": "LTAModel.SMRTRoute"
+},
+"SMRTRouteID": "85854720",
+"SR_SVC_NUM": "590",
+"SR_SVC_DIR": "1",
+"SR_ROUT_SEQ": "6",
+"SR_BS_CODE": "45361",
+"SR_EXP_CODE": "",
+"SR_DISTANCE": "2.1",
+"SR_FST_WD": "0746",
+"SR_LST_WD": "0756",
+"SR_FST_SAT": "-",
+"SR_LST_SAT": "-",
+"SR_FST_SUN": "-",
+"SR_LST_SUN": "-",
+"Summary": "SR_SVC_NUM: 590 SR_SVC_DIR: 1 SR_BS_CODE: 45361 ",
+"CreateDate": "\/Date(1428319918597)\/"
+},
+{
+"__metadata": {
+"uri": "http:\/\/datamall.mytransport.sg\/LTAoDataService.svc\/SMRTRouteSet(85854721)",
+"type": "LTAModel.SMRTRoute"
+},
+"SMRTRouteID": "85854721",
+"SR_SVC_NUM": "590",
+"SR_SVC_DIR": "1",
+"SR_ROUT_SEQ": "7",
+"SR_BS_CODE": "45301",
+"SR_EXP_CODE": "",
+"SR_DISTANCE": "2.5",
+"SR_FST_WD": "0747",
+"SR_LST_WD": "0757",
+"SR_FST_SAT": "-",
+"SR_LST_SAT": "-",
+"SR_FST_SUN": "-",
+"SR_LST_SUN": "-",
+"Summary": "SR_SVC_NUM: 590 SR_SVC_DIR: 1 SR_BS_CODE: 45301 ",
+"CreateDate": "\/Date(1428319918603)\/"
+},
+{
+"__metadata": {
+"uri": "http:\/\/datamall.mytransport.sg\/LTAoDataService.svc\/SMRTRouteSet(85854722)",
+"type": "LTAModel.SMRTRoute"
+},
+"SMRTRouteID": "85854722",
+"SR_SVC_NUM": "590",
+"SR_SVC_DIR": "1",
+"SR_ROUT_SEQ": "8",
+"SR_BS_CODE": "E4406",
+"SR_EXP_CODE": "N",
+"SR_DISTANCE": "-",
+"SR_FST_WD": "0747",
+"SR_LST_WD": "0757",
+"SR_FST_SAT": "-",
+"SR_LST_SAT": "-",
+"SR_FST_SUN": "-",
+"SR_LST_SUN": "-",
+"Summary": "SR_SVC_NUM: 590 SR_SVC_DIR: 1 SR_BS_CODE: E4406 ",
+"CreateDate": "\/Date(1428319918610)\/"
+},
+{
+"__metadata": {
+"uri": "http:\/\/datamall.mytransport.sg\/LTAoDataService.svc\/SMRTRouteSet(85854723)",
+"type": "LTAModel.SMRTRoute"
+},
+"SMRTRouteID": "85854723",
+"SR_SVC_NUM": "590",
+"SR_SVC_DIR": "1",
+"SR_ROUT_SEQ": "9",
+"SR_BS_CODE": "KJE",
+"SR_EXP_CODE": "E",
+"SR_DISTANCE": "-",
+"SR_FST_WD": "0747",
+"SR_LST_WD": "0757",
+"SR_FST_SAT": "-",
+"SR_LST_SAT": "-",
+"SR_FST_SUN": "-",
+"SR_LST_SUN": "-",
+"Summary": "SR_SVC_NUM: 590 SR_SVC_DIR: 1 SR_BS_CODE: KJE ",
+"CreateDate": "\/Date(1428319918617)\/"
+},
+{
+"__metadata": {
+"uri": "http:\/\/datamall.mytransport.sg\/LTAoDataService.svc\/SMRTRouteSet(85854724)",
+"type": "LTAModel.SMRTRoute"
+},
+"SMRTRouteID": "85854724",
+"SR_SVC_NUM": "590",
+"SR_SVC_DIR": "1",
+"SR_ROUT_SEQ": "10",
+"SR_BS_CODE": "BKE",
+"SR_EXP_CODE": "E",
+"SR_DISTANCE": "-",
+"SR_FST_WD": "0747",
+"SR_LST_WD": "0757",
+"SR_FST_SAT": "-",
+"SR_LST_SAT": "-",
+"SR_FST_SUN": "-",
+"SR_LST_SUN": "-",
+"Summary": "SR_SVC_NUM: 590 SR_SVC_DIR: 1 SR_BS_CODE: BKE ",
+"CreateDate": "\/Date(1428319918623)\/"
+},
+{
+"__metadata": {
+"uri": "http:\/\/datamall.mytransport.sg\/LTAoDataService.svc\/SMRTRouteSet(85854725)",
+"type": "LTAModel.SMRTRoute"
+},
+"SMRTRouteID": "85854725",
+"SR_SVC_NUM": "590",
+"SR_SVC_DIR": "1",
+"SR_ROUT_SEQ": "11",
+"SR_BS_CODE": "PIE",
+"SR_EXP_CODE": "E",
+"SR_DISTANCE": "-",
+"SR_FST_WD": "0747",
+"SR_LST_WD": "0757",
+"SR_FST_SAT": "-",
+"SR_LST_SAT": "-",
+"SR_FST_SUN": "-",
+"SR_LST_SUN": "-",
+"Summary": "SR_SVC_NUM: 590 SR_SVC_DIR: 1 SR_BS_CODE: PIE ",
+"CreateDate": "\/Date(1428319918627)\/"
+},
+{
+"__metadata": {
+"uri": "http:\/\/datamall.mytransport.sg\/LTAoDataService.svc\/SMRTRouteSet(85854726)",
+"type": "LTAModel.SMRTRoute"
+},
+"SMRTRouteID": "85854726",
+"SR_SVC_NUM": "590",
+"SR_SVC_DIR": "1",
+"SR_ROUT_SEQ": "12",
+"SR_BS_CODE": "E4022",
+"SR_EXP_CODE": "N",
+"SR_DISTANCE": "-",
+"SR_FST_WD": "0747",
+"SR_LST_WD": "0757",
+"SR_FST_SAT": "-",
+"SR_LST_SAT": "-",
+"SR_FST_SUN": "-",
+"SR_LST_SUN": "-",
+"Summary": "SR_SVC_NUM: 590 SR_SVC_DIR: 1 SR_BS_CODE: E4022 ",
+"CreateDate": "\/Date(1428319918633)\/"
+},
+{
+"__metadata": {
+"uri": "http:\/\/datamall.mytransport.sg\/LTAoDataService.svc\/SMRTRouteSet(85854727)",
+"type": "LTAModel.SMRTRoute"
+},
+"SMRTRouteID": "85854727",
+"SR_SVC_NUM": "590",
+"SR_SVC_DIR": "1",
+"SR_ROUT_SEQ": "13",
+"SR_BS_CODE": "E4023",
+"SR_EXP_CODE": "N",
+"SR_DISTANCE": "-",
+"SR_FST_WD": "0747",
+"SR_LST_WD": "0757",
+"SR_FST_SAT": "-",
+"SR_LST_SAT": "-",
+"SR_FST_SUN": "-",
+"SR_LST_SUN": "-",
+"Summary": "SR_SVC_NUM: 590 SR_SVC_DIR: 1 SR_BS_CODE: E4023 ",
+"CreateDate": "\/Date(1428319918640)\/"
+},
+{
+"__metadata": {
+"uri": "http:\/\/datamall.mytransport.sg\/LTAoDataService.svc\/SMRTRouteSet(85854728)",
+"type": "LTAModel.SMRTRoute"
+},
+"SMRTRouteID": "85854728",
+"SR_SVC_NUM": "590",
+"SR_SVC_DIR": "1",
+"SR_ROUT_SEQ": "14",
+"SR_BS_CODE": "09219",
+"SR_EXP_CODE": "",
+"SR_DISTANCE": "20.3",
+"SR_FST_WD": "0834",
+"SR_LST_WD": "0844",
+"SR_FST_SAT": "-",
+"SR_LST_SAT": "-",
+"SR_FST_SUN": "-",
+"SR_LST_SUN": "-",
+"Summary": "SR_SVC_NUM: 590 SR_SVC_DIR: 1 SR_BS_CODE: 09219 ",
+"CreateDate": "\/Date(1428319918643)\/"
+},
+{
+"__metadata": {
+"uri": "http:\/\/datamall.mytransport.sg\/LTAoDataService.svc\/SMRTRouteSet(85854729)",
+"type": "LTAModel.SMRTRoute"
+},
+"SMRTRouteID": "85854729",
+"SR_SVC_NUM": "590",
+"SR_SVC_DIR": "1",
+"SR_ROUT_SEQ": "15",
+"SR_BS_CODE": "09037",
+"SR_EXP_CODE": "",
+"SR_DISTANCE": "21.1",
+"SR_FST_WD": "0836",
+"SR_LST_WD": "0846",
+"SR_FST_SAT": "-",
+"SR_LST_SAT": "-",
+"SR_FST_SUN": "-",
+"SR_LST_SUN": "-",
+"Summary": "SR_SVC_NUM: 590 SR_SVC_DIR: 1 SR_BS_CODE: 09037 ",
+"CreateDate": "\/Date(1428319918650)\/"
+},
+{
+"__metadata": {
+"uri": "http:\/\/datamall.mytransport.sg\/LTAoDataService.svc\/SMRTRouteSet(85854730)",
+"type": "LTAModel.SMRTRoute"
+},
+"SMRTRouteID": "85854730",
+"SR_SVC_NUM": "590",
+"SR_SVC_DIR": "1",
+"SR_ROUT_SEQ": "16",
+"SR_BS_CODE": "08137",
+"SR_EXP_CODE": "",
+"SR_DISTANCE": "21.6",
+"SR_FST_WD": "0838",
+"SR_LST_WD": "0848",
+"SR_FST_SAT": "-",
+"SR_LST_SAT": "-",
+"SR_FST_SUN": "-",
+"SR_LST_SUN": "-",
+"Summary": "SR_SVC_NUM: 590 SR_SVC_DIR: 1 SR_BS_CODE: 08137 ",
+"CreateDate": "\/Date(1428319918657)\/"
+},
+{
+"__metadata": {
+"uri": "http:\/\/datamall.mytransport.sg\/LTAoDataService.svc\/SMRTRouteSet(85854731)",
+"type": "LTAModel.SMRTRoute"
+},
+"SMRTRouteID": "85854731",
+"SR_SVC_NUM": "590",
+"SR_SVC_DIR": "1",
+"SR_ROUT_SEQ": "17",
+"SR_BS_CODE": "08058",
+"SR_EXP_CODE": "",
+"SR_DISTANCE": "22.3",
+"SR_FST_WD": "0839",
+"SR_LST_WD": "0849",
+"SR_FST_SAT": "-",
+"SR_LST_SAT": "-",
+"SR_FST_SUN": "-",
+"SR_LST_SUN": "-",
+"Summary": "SR_SVC_NUM: 590 SR_SVC_DIR: 1 SR_BS_CODE: 08058 ",
+"CreateDate": "\/Date(1428319918660)\/"
+},
+{
+"__metadata": {
+"uri": "http:\/\/datamall.mytransport.sg\/LTAoDataService.svc\/SMRTRouteSet(85854732)",
+"type": "LTAModel.SMRTRoute"
+},
+"SMRTRouteID": "85854732",
+"SR_SVC_NUM": "590",
+"SR_SVC_DIR": "1",
+"SR_ROUT_SEQ": "18",
+"SR_BS_CODE": "08069",
+"SR_EXP_CODE": "",
+"SR_DISTANCE": "22.7",
+"SR_FST_WD": "0840",
+"SR_LST_WD": "0850",
+"SR_FST_SAT": "-",
+"SR_LST_SAT": "-",
+"SR_FST_SUN": "-",
+"SR_LST_SUN": "-",
+"Summary": "SR_SVC_NUM: 590 SR_SVC_DIR: 1 SR_BS_CODE: 08069 ",
+"CreateDate": "\/Date(1428319918667)\/"
+},
+{
+"__metadata": {
+"uri": "http:\/\/datamall.mytransport.sg\/LTAoDataService.svc\/SMRTRouteSet(85854733)",
+"type": "LTAModel.SMRTRoute"
+},
+"SMRTRouteID": "85854733",
+"SR_SVC_NUM": "590",
+"SR_SVC_DIR": "1",
+"SR_ROUT_SEQ": "19",
+"SR_BS_CODE": "04179",
+"SR_EXP_CODE": "",
+"SR_DISTANCE": "23",
+"SR_FST_WD": "0841",
+"SR_LST_WD": "0851",
+"SR_FST_SAT": "-",
+"SR_LST_SAT": "-",
+"SR_FST_SUN": "-",
+"SR_LST_SUN": "-",
+"Summary": "SR_SVC_NUM: 590 SR_SVC_DIR: 1 SR_BS_CODE: 04179 ",
+"CreateDate": "\/Date(1428319918673)\/"
+},
+{
+"__metadata": {
+"uri": "http:\/\/datamall.mytransport.sg\/LTAoDataService.svc\/SMRTRouteSet(85854734)",
+"type": "LTAModel.SMRTRoute"
+},
+"SMRTRouteID": "85854734",
+"SR_SVC_NUM": "590",
+"SR_SVC_DIR": "1",
+"SR_ROUT_SEQ": "20",
+"SR_BS_CODE": "02119",
+"SR_EXP_CODE": "",
+"SR_DISTANCE": "23.8",
+"SR_FST_WD": "0843",
+"SR_LST_WD": "0853",
+"SR_FST_SAT": "-",
+"SR_LST_SAT": "-",
+"SR_FST_SUN": "-",
+"SR_LST_SUN": "-",
+"Summary": "SR_SVC_NUM: 590 SR_SVC_DIR: 1 SR_BS_CODE: 02119 ",
+"CreateDate": "\/Date(1428319918680)\/"
+},
+{
+"__metadata": {
+"uri": "http:\/\/datamall.mytransport.sg\/LTAoDataService.svc\/SMRTRouteSet(85854735)",
+"type": "LTAModel.SMRTRoute"
+},
+"SMRTRouteID": "85854735",
+"SR_SVC_NUM": "590",
+"SR_SVC_DIR": "1",
+"SR_ROUT_SEQ": "21",
+"SR_BS_CODE": "E0206",
+"SR_EXP_CODE": "N",
+"SR_DISTANCE": "-",
+"SR_FST_WD": "0843",
+"SR_LST_WD": "0853",
+"SR_FST_SAT": "-",
+"SR_LST_SAT": "-",
+"SR_FST_SUN": "-",
+"SR_LST_SUN": "-",
+"Summary": "SR_SVC_NUM: 590 SR_SVC_DIR: 1 SR_BS_CODE: E0206 ",
+"CreateDate": "\/Date(1428319918683)\/"
+},
+{
+"__metadata": {
+"uri": "http:\/\/datamall.mytransport.sg\/LTAoDataService.svc\/SMRTRouteSet(85854736)",
+"type": "LTAModel.SMRTRoute"
+},
+"SMRTRouteID": "85854736",
+"SR_SVC_NUM": "590",
+"SR_SVC_DIR": "1",
+"SR_ROUT_SEQ": "22",
+"SR_BS_CODE": "03019",
+"SR_EXP_CODE": "",
+"SR_DISTANCE": "24.8",
+"SR_FST_WD": "0846",
+"SR_LST_WD": "0856",
+"SR_FST_SAT": "-",
+"SR_LST_SAT": "-",
+"SR_FST_SUN": "-",
+"SR_LST_SUN": "-",
+"Summary": "SR_SVC_NUM: 590 SR_SVC_DIR: 1 SR_BS_CODE: 03019 ",
+"CreateDate": "\/Date(1428319918690)\/"
+},
+{
+"__metadata": {
+"uri": "http:\/\/datamall.mytransport.sg\/LTAoDataService.svc\/SMRTRouteSet(85854737)",
+"type": "LTAModel.SMRTRoute"
+},
+"SMRTRouteID": "85854737",
+"SR_SVC_NUM": "590",
+"SR_SVC_DIR": "1",
+"SR_ROUT_SEQ": "23",
+"SR_BS_CODE": "03129",
+"SR_EXP_CODE": "",
+"SR_DISTANCE": "25.6",
+"SR_FST_WD": "0848",
+"SR_LST_WD": "0858",
+"SR_FST_SAT": "-",
+"SR_LST_SAT": "-",
+"SR_FST_SUN": "-",
+"SR_LST_SUN": "-",
+"Summary": "SR_SVC_NUM: 590 SR_SVC_DIR: 1 SR_BS_CODE: 03129 ",
+"CreateDate": "\/Date(1428319918697)\/"
+},
+{
+"__metadata": {
+"uri": "http:\/\/datamall.mytransport.sg\/LTAoDataService.svc\/SMRTRouteSet(85854738)",
+"type": "LTAModel.SMRTRoute"
+},
+"SMRTRouteID": "85854738",
+"SR_SVC_NUM": "590",
+"SR_SVC_DIR": "1",
+"SR_ROUT_SEQ": "24",
+"SR_BS_CODE": "03217",
+"SR_EXP_CODE": "",
+"SR_DISTANCE": "26",
+"SR_FST_WD": "0850",
+"SR_LST_WD": "0900",
+"SR_FST_SAT": "-",
+"SR_LST_SAT": "-",
+"SR_FST_SUN": "-",
+"SR_LST_SUN": "-",
+"Summary": "SR_SVC_NUM: 590 SR_SVC_DIR: 1 SR_BS_CODE: 03217 ",
+"CreateDate": "\/Date(1428319918700)\/"
+},
+{
+"__metadata": {
+"uri": "http:\/\/datamall.mytransport.sg\/LTAoDataService.svc\/SMRTRouteSet(85854739)",
+"type": "LTAModel.SMRTRoute"
+},
+"SMRTRouteID": "85854739",
+"SR_SVC_NUM": "590",
+"SR_SVC_DIR": "1",
+"SR_ROUT_SEQ": "25",
+"SR_BS_CODE": "03218",
+"SR_EXP_CODE": "",
+"SR_DISTANCE": "26.2",
+"SR_FST_WD": "0850",
+"SR_LST_WD": "0900",
+"SR_FST_SAT": "-",
+"SR_LST_SAT": "-",
+"SR_FST_SUN": "-",
+"SR_LST_SUN": "-",
+"Summary": "SR_SVC_NUM: 590 SR_SVC_DIR: 1 SR_BS_CODE: 03218 ",
+"CreateDate": "\/Date(1428319918707)\/"
+}
+]
+}

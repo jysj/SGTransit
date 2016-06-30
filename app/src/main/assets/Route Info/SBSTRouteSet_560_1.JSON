@@ -1,0 +1,361 @@
+{
+"d": [
+{
+"__metadata": {
+"uri": "http:\/\/datamall.mytransport.sg\/LTAoDataService.svc\/SBSTRouteSet(153291073)",
+"type": "LTAModel.SBSTRoute"
+},
+"SBSTRouteID": "153291073",
+"SR_SVC_NUM": "560",
+"SR_SVC_DIR": "1",
+"SR_ROUT_SEQ": "1",
+"SR_BS_CODE": "12169",
+"SR_EXP_CODE": "",
+"SR_DISTANCE": "0.0",
+"SR_FST_WD": "0745",
+"SR_LST_WD": "0755",
+"SR_FST_SAT": "-",
+"SR_LST_SAT": "-",
+"SR_FST_SUN": "-",
+"SR_LST_SUN": "-",
+"Summary": "SR_SVC_NUM: 560 SR_SVC_DIR: 1 SR_BS_CODE: 12169 ",
+"CreateDate": "\/Date(1428319998390)\/"
+},
+{
+"__metadata": {
+"uri": "http:\/\/datamall.mytransport.sg\/LTAoDataService.svc\/SBSTRouteSet(153291074)",
+"type": "LTAModel.SBSTRoute"
+},
+"SBSTRouteID": "153291074",
+"SR_SVC_NUM": "560",
+"SR_SVC_DIR": "1",
+"SR_ROUT_SEQ": "2",
+"SR_BS_CODE": "12179",
+"SR_EXP_CODE": "",
+"SR_DISTANCE": "0.3",
+"SR_FST_WD": "0746",
+"SR_LST_WD": "0756",
+"SR_FST_SAT": "-",
+"SR_LST_SAT": "-",
+"SR_FST_SUN": "-",
+"SR_LST_SUN": "-",
+"Summary": "SR_SVC_NUM: 560 SR_SVC_DIR: 1 SR_BS_CODE: 12179 ",
+"CreateDate": "\/Date(1428319998397)\/"
+},
+{
+"__metadata": {
+"uri": "http:\/\/datamall.mytransport.sg\/LTAoDataService.svc\/SBSTRouteSet(153291075)",
+"type": "LTAModel.SBSTRoute"
+},
+"SBSTRouteID": "153291075",
+"SR_SVC_NUM": "560",
+"SR_SVC_DIR": "1",
+"SR_ROUT_SEQ": "3",
+"SR_BS_CODE": "12199",
+"SR_EXP_CODE": "",
+"SR_DISTANCE": "0.6",
+"SR_FST_WD": "0747",
+"SR_LST_WD": "0757",
+"SR_FST_SAT": "-",
+"SR_LST_SAT": "-",
+"SR_FST_SUN": "-",
+"SR_LST_SUN": "-",
+"Summary": "SR_SVC_NUM: 560 SR_SVC_DIR: 1 SR_BS_CODE: 12199 ",
+"CreateDate": "\/Date(1428319998403)\/"
+},
+{
+"__metadata": {
+"uri": "http:\/\/datamall.mytransport.sg\/LTAoDataService.svc\/SBSTRouteSet(153291076)",
+"type": "LTAModel.SBSTRoute"
+},
+"SBSTRouteID": "153291076",
+"SR_SVC_NUM": "560",
+"SR_SVC_DIR": "1",
+"SR_ROUT_SEQ": "4",
+"SR_BS_CODE": "12189",
+"SR_EXP_CODE": "",
+"SR_DISTANCE": "0.9",
+"SR_FST_WD": "0749",
+"SR_LST_WD": "0759",
+"SR_FST_SAT": "-",
+"SR_LST_SAT": "-",
+"SR_FST_SUN": "-",
+"SR_LST_SUN": "-",
+"Summary": "SR_SVC_NUM: 560 SR_SVC_DIR: 1 SR_BS_CODE: 12189 ",
+"CreateDate": "\/Date(1428319998407)\/"
+},
+{
+"__metadata": {
+"uri": "http:\/\/datamall.mytransport.sg\/LTAoDataService.svc\/SBSTRouteSet(153291077)",
+"type": "LTAModel.SBSTRoute"
+},
+"SBSTRouteID": "153291077",
+"SR_SVC_NUM": "560",
+"SR_SVC_DIR": "1",
+"SR_ROUT_SEQ": "5",
+"SR_BS_CODE": "12211",
+"SR_EXP_CODE": "",
+"SR_DISTANCE": "1.0",
+"SR_FST_WD": "0749",
+"SR_LST_WD": "0759",
+"SR_FST_SAT": "-",
+"SR_LST_SAT": "-",
+"SR_FST_SUN": "-",
+"SR_LST_SUN": "-",
+"Summary": "SR_SVC_NUM: 560 SR_SVC_DIR: 1 SR_BS_CODE: 12211 ",
+"CreateDate": "\/Date(1428319998413)\/"
+},
+{
+"__metadata": {
+"uri": "http:\/\/datamall.mytransport.sg\/LTAoDataService.svc\/SBSTRouteSet(153291078)",
+"type": "LTAModel.SBSTRoute"
+},
+"SBSTRouteID": "153291078",
+"SR_SVC_NUM": "560",
+"SR_SVC_DIR": "1",
+"SR_ROUT_SEQ": "6",
+"SR_BS_CODE": "12151",
+"SR_EXP_CODE": "",
+"SR_DISTANCE": "1.2",
+"SR_FST_WD": "0750",
+"SR_LST_WD": "0800",
+"SR_FST_SAT": "-",
+"SR_LST_SAT": "-",
+"SR_FST_SUN": "-",
+"SR_LST_SUN": "-",
+"Summary": "SR_SVC_NUM: 560 SR_SVC_DIR: 1 SR_BS_CODE: 12151 ",
+"CreateDate": "\/Date(1428319998420)\/"
+},
+{
+"__metadata": {
+"uri": "http:\/\/datamall.mytransport.sg\/LTAoDataService.svc\/SBSTRouteSet(153291079)",
+"type": "LTAModel.SBSTRoute"
+},
+"SBSTRouteID": "153291079",
+"SR_SVC_NUM": "560",
+"SR_SVC_DIR": "1",
+"SR_ROUT_SEQ": "7",
+"SR_BS_CODE": "12031",
+"SR_EXP_CODE": "",
+"SR_DISTANCE": "1.7",
+"SR_FST_WD": "0751",
+"SR_LST_WD": "0802",
+"SR_FST_SAT": "-",
+"SR_LST_SAT": "-",
+"SR_FST_SUN": "-",
+"SR_LST_SUN": "-",
+"Summary": "SR_SVC_NUM: 560 SR_SVC_DIR: 1 SR_BS_CODE: 12031 ",
+"CreateDate": "\/Date(1428319998423)\/"
+},
+{
+"__metadata": {
+"uri": "http:\/\/datamall.mytransport.sg\/LTAoDataService.svc\/SBSTRouteSet(153291080)",
+"type": "LTAModel.SBSTRoute"
+},
+"SBSTRouteID": "153291080",
+"SR_SVC_NUM": "560",
+"SR_SVC_DIR": "1",
+"SR_ROUT_SEQ": "8",
+"SR_BS_CODE": "12041",
+"SR_EXP_CODE": "",
+"SR_DISTANCE": "2.1",
+"SR_FST_WD": "0752",
+"SR_LST_WD": "0803",
+"SR_FST_SAT": "-",
+"SR_LST_SAT": "-",
+"SR_FST_SUN": "-",
+"SR_LST_SUN": "-",
+"Summary": "SR_SVC_NUM: 560 SR_SVC_DIR: 1 SR_BS_CODE: 12041 ",
+"CreateDate": "\/Date(1428319998430)\/"
+},
+{
+"__metadata": {
+"uri": "http:\/\/datamall.mytransport.sg\/LTAoDataService.svc\/SBSTRouteSet(153291081)",
+"type": "LTAModel.SBSTRoute"
+},
+"SBSTRouteID": "153291081",
+"SR_SVC_NUM": "560",
+"SR_SVC_DIR": "1",
+"SR_ROUT_SEQ": "9",
+"SR_BS_CODE": "12051",
+"SR_EXP_CODE": "",
+"SR_DISTANCE": "2.4",
+"SR_FST_WD": "0754",
+"SR_LST_WD": "0804",
+"SR_FST_SAT": "-",
+"SR_LST_SAT": "-",
+"SR_FST_SUN": "-",
+"SR_LST_SUN": "-",
+"Summary": "SR_SVC_NUM: 560 SR_SVC_DIR: 1 SR_BS_CODE: 12051 ",
+"CreateDate": "\/Date(1428319998437)\/"
+},
+{
+"__metadata": {
+"uri": "http:\/\/datamall.mytransport.sg\/LTAoDataService.svc\/SBSTRouteSet(153291082)",
+"type": "LTAModel.SBSTRoute"
+},
+"SBSTRouteID": "153291082",
+"SR_SVC_NUM": "560",
+"SR_SVC_DIR": "1",
+"SR_ROUT_SEQ": "10",
+"SR_BS_CODE": "12111",
+"SR_EXP_CODE": "",
+"SR_DISTANCE": "2.6",
+"SR_FST_WD": "0754",
+"SR_LST_WD": "0805",
+"SR_FST_SAT": "-",
+"SR_LST_SAT": "-",
+"SR_FST_SUN": "-",
+"SR_LST_SUN": "-",
+"Summary": "SR_SVC_NUM: 560 SR_SVC_DIR: 1 SR_BS_CODE: 12111 ",
+"CreateDate": "\/Date(1428319998440)\/"
+},
+{
+"__metadata": {
+"uri": "http:\/\/datamall.mytransport.sg\/LTAoDataService.svc\/SBSTRouteSet(153291083)",
+"type": "LTAModel.SBSTRoute"
+},
+"SBSTRouteID": "153291083",
+"SR_SVC_NUM": "560",
+"SR_SVC_DIR": "1",
+"SR_ROUT_SEQ": "11",
+"SR_BS_CODE": "17119",
+"SR_EXP_CODE": "E",
+"SR_DISTANCE": "-",
+"SR_FST_WD": "0755",
+"SR_LST_WD": "0806",
+"SR_FST_SAT": "-",
+"SR_LST_SAT": "-",
+"SR_FST_SUN": "-",
+"SR_LST_SUN": "-",
+"Summary": "SR_SVC_NUM: 560 SR_SVC_DIR: 1 SR_BS_CODE: 17119 ",
+"CreateDate": "\/Date(1428319998447)\/"
+},
+{
+"__metadata": {
+"uri": "http:\/\/datamall.mytransport.sg\/LTAoDataService.svc\/SBSTRouteSet(153291084)",
+"type": "LTAModel.SBSTRoute"
+},
+"SBSTRouteID": "153291084",
+"SR_SVC_NUM": "560",
+"SR_SVC_DIR": "1",
+"SR_ROUT_SEQ": "12",
+"SR_BS_CODE": "16099",
+"SR_EXP_CODE": "E",
+"SR_DISTANCE": "-",
+"SR_FST_WD": "0759",
+"SR_LST_WD": "0810",
+"SR_FST_SAT": "-",
+"SR_LST_SAT": "-",
+"SR_FST_SUN": "-",
+"SR_LST_SUN": "-",
+"Summary": "SR_SVC_NUM: 560 SR_SVC_DIR: 1 SR_BS_CODE: 16099 ",
+"CreateDate": "\/Date(1428319998457)\/"
+},
+{
+"__metadata": {
+"uri": "http:\/\/datamall.mytransport.sg\/LTAoDataService.svc\/SBSTRouteSet(153291085)",
+"type": "LTAModel.SBSTRoute"
+},
+"SBSTRouteID": "153291085",
+"SR_SVC_NUM": "560",
+"SR_SVC_DIR": "1",
+"SR_ROUT_SEQ": "13",
+"SR_BS_CODE": "14069",
+"SR_EXP_CODE": "E",
+"SR_DISTANCE": "-",
+"SR_FST_WD": "0814",
+"SR_LST_WD": "0825",
+"SR_FST_SAT": "-",
+"SR_LST_SAT": "-",
+"SR_FST_SUN": "-",
+"SR_LST_SUN": "-",
+"Summary": "SR_SVC_NUM: 560 SR_SVC_DIR: 1 SR_BS_CODE: 14069 ",
+"CreateDate": "\/Date(1428319998460)\/"
+},
+{
+"__metadata": {
+"uri": "http:\/\/datamall.mytransport.sg\/LTAoDataService.svc\/SBSTRouteSet(153291086)",
+"type": "LTAModel.SBSTRoute"
+},
+"SBSTRouteID": "153291086",
+"SR_SVC_NUM": "560",
+"SR_SVC_DIR": "1",
+"SR_ROUT_SEQ": "14",
+"SR_BS_CODE": "03223",
+"SR_EXP_CODE": "",
+"SR_DISTANCE": "14.0",
+"SR_FST_WD": "0816",
+"SR_LST_WD": "0827",
+"SR_FST_SAT": "-",
+"SR_LST_SAT": "-",
+"SR_FST_SUN": "-",
+"SR_LST_SUN": "-",
+"Summary": "SR_SVC_NUM: 560 SR_SVC_DIR: 1 SR_BS_CODE: 03223 ",
+"CreateDate": "\/Date(1428319998467)\/"
+},
+{
+"__metadata": {
+"uri": "http:\/\/datamall.mytransport.sg\/LTAoDataService.svc\/SBSTRouteSet(153291087)",
+"type": "LTAModel.SBSTRoute"
+},
+"SBSTRouteID": "153291087",
+"SR_SVC_NUM": "560",
+"SR_SVC_DIR": "1",
+"SR_ROUT_SEQ": "15",
+"SR_BS_CODE": "03151",
+"SR_EXP_CODE": "",
+"SR_DISTANCE": "14.4",
+"SR_FST_WD": "0818",
+"SR_LST_WD": "0830",
+"SR_FST_SAT": "-",
+"SR_LST_SAT": "-",
+"SR_FST_SUN": "-",
+"SR_LST_SUN": "-",
+"Summary": "SR_SVC_NUM: 560 SR_SVC_DIR: 1 SR_BS_CODE: 03151 ",
+"CreateDate": "\/Date(1428319998473)\/"
+},
+{
+"__metadata": {
+"uri": "http:\/\/datamall.mytransport.sg\/LTAoDataService.svc\/SBSTRouteSet(153291088)",
+"type": "LTAModel.SBSTRoute"
+},
+"SBSTRouteID": "153291088",
+"SR_SVC_NUM": "560",
+"SR_SVC_DIR": "1",
+"SR_ROUT_SEQ": "16",
+"SR_BS_CODE": "03021",
+"SR_EXP_CODE": "",
+"SR_DISTANCE": "14.9",
+"SR_FST_WD": "0821",
+"SR_LST_WD": "0833",
+"SR_FST_SAT": "-",
+"SR_LST_SAT": "-",
+"SR_FST_SUN": "-",
+"SR_LST_SUN": "-",
+"Summary": "SR_SVC_NUM: 560 SR_SVC_DIR: 1 SR_BS_CODE: 03021 ",
+"CreateDate": "\/Date(1428319998480)\/"
+},
+{
+"__metadata": {
+"uri": "http:\/\/datamall.mytransport.sg\/LTAoDataService.svc\/SBSTRouteSet(153291089)",
+"type": "LTAModel.SBSTRoute"
+},
+"SBSTRouteID": "153291089",
+"SR_SVC_NUM": "560",
+"SR_SVC_DIR": "1",
+"SR_ROUT_SEQ": "17",
+"SR_BS_CODE": "03011",
+"SR_EXP_CODE": "",
+"SR_DISTANCE": "15.5",
+"SR_FST_WD": "0825",
+"SR_LST_WD": "0837",
+"SR_FST_SAT": "-",
+"SR_LST_SAT": "-",
+"SR_FST_SUN": "-",
+"SR_LST_SUN": "-",
+"Summary": "SR_SVC_NUM: 560 SR_SVC_DIR: 1 SR_BS_CODE: 03011 ",
+"CreateDate": "\/Date(1428319998483)\/"
+}
+]
+}

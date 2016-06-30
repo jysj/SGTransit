@@ -1,0 +1,205 @@
+{
+"d" : [
+{
+"__metadata": {
+"uri": "http://datamall.mytransport.sg/LTAoDataService.svc/SBSTInfoSet(5966995)", "type": "LTAModel.SBSTInfo"
+}, "SBSTInfoID": 5966995, "SI_SVC_NUM": "58", "SI_SVC_DIR": "2", "SI_SVC_CAT": "TRUNK ", "SI_BS_CODE_ST": "77009", "SI_BS_CODE_END": "53009", "SI_FREQ_AM_PK": "07-12", "SI_FREQ_AM_OF": "08-19", "SI_FREQ_PM_PK": "07-13", "SI_FREQ_PM_OF": "13-19", "SI_LOOP": "                                ", "Summary": "SI_SVC_NUM: 58 SI_SVC_DIR: 2 SI_SVC_CAT: TRUNK  ", "CreateDate": "\/Date(1428319960123)\/"
+}, {
+"__metadata": {
+"uri": "http://datamall.mytransport.sg/LTAoDataService.svc/SBSTInfoSet(5966996)", "type": "LTAModel.SBSTInfo"
+}, "SBSTInfoID": 5966996, "SI_SVC_NUM": "585", "SI_SVC_DIR": "1", "SI_SVC_CAT": "FLAT FARE $4.20", "SI_BS_CODE_ST": "72061", "SI_BS_CODE_END": "03011", "SI_FREQ_AM_PK": "10-10", "SI_FREQ_AM_OF": " - ", "SI_FREQ_PM_PK": " - ", "SI_FREQ_PM_OF": " - ", "SI_LOOP": "                                ", "Summary": "SI_SVC_NUM: 585 SI_SVC_DIR: 1 SI_SVC_CAT: FLAT FARE $4.20 ", "CreateDate": "\/Date(1428319960130)\/"
+}, {
+"__metadata": {
+"uri": "http://datamall.mytransport.sg/LTAoDataService.svc/SBSTInfoSet(5966997)", "type": "LTAModel.SBSTInfo"
+}, "SBSTInfoID": 5966997, "SI_SVC_NUM": "59", "SI_SVC_DIR": "1", "SI_SVC_CAT": "TRUNK ", "SI_BS_CODE_ST": "53009", "SI_BS_CODE_END": "99009", "SI_FREQ_AM_PK": "08-13", "SI_FREQ_AM_OF": "08-17", "SI_FREQ_PM_PK": "13-17", "SI_FREQ_PM_OF": "15-17", "SI_LOOP": "                                ", "Summary": "SI_SVC_NUM: 59 SI_SVC_DIR: 1 SI_SVC_CAT: TRUNK  ", "CreateDate": "\/Date(1428319960137)\/"
+}, {
+"__metadata": {
+"uri": "http://datamall.mytransport.sg/LTAoDataService.svc/SBSTInfoSet(5966998)", "type": "LTAModel.SBSTInfo"
+}, "SBSTInfoID": 5966998, "SI_SVC_NUM": "59", "SI_SVC_DIR": "2", "SI_SVC_CAT": "TRUNK ", "SI_BS_CODE_ST": "99009", "SI_BS_CODE_END": "53009", "SI_FREQ_AM_PK": "10-13", "SI_FREQ_AM_OF": "09-16", "SI_FREQ_PM_PK": "08-19", "SI_FREQ_PM_OF": "14-19", "SI_LOOP": "                                ", "Summary": "SI_SVC_NUM: 59 SI_SVC_DIR: 2 SI_SVC_CAT: TRUNK  ", "CreateDate": "\/Date(1428319960147)\/"
+}, {
+"__metadata": {
+"uri": "http://datamall.mytransport.sg/LTAoDataService.svc/SBSTInfoSet(5966999)", "type": "LTAModel.SBSTInfo"
+}, "SBSTInfoID": 5966999, "SI_SVC_NUM": "5N", "SI_SVC_DIR": "1", "SI_SVC_CAT": "2-TIER FLAT FARE", "SI_BS_CODE_ST": "02099", "SI_BS_CODE_END": "27159", "SI_FREQ_AM_PK": " - ", "SI_FREQ_AM_OF": " - ", "SI_FREQ_PM_PK": " - ", "SI_FREQ_PM_OF": "40-40", "SI_LOOP": "                                ", "Summary": "SI_SVC_NUM: 5N SI_SVC_DIR: 1 SI_SVC_CAT: 2-TIER FLAT FARE ", "CreateDate": "\/Date(1428319960150)\/"
+}, {
+"__metadata": {
+"uri": "http://datamall.mytransport.sg/LTAoDataService.svc/SBSTInfoSet(5967000)", "type": "LTAModel.SBSTInfo"
+}, "SBSTInfoID": 5967000, "SI_SVC_NUM": "6", "SI_SVC_DIR": "1", "SI_SVC_CAT": "TRUNK ", "SI_BS_CODE_ST": "77009", "SI_BS_CODE_END": "77009", "SI_FREQ_AM_PK": "08-09", "SI_FREQ_AM_OF": "07-17", "SI_FREQ_PM_PK": "07-09", "SI_FREQ_PM_OF": "09-09", "SI_LOOP": "Loyang Cres                     ", "Summary": "SI_SVC_NUM: 6 SI_SVC_DIR: 1 SI_SVC_CAT: TRUNK  ", "CreateDate": "\/Date(1428319960157)\/"
+}, {
+"__metadata": {
+"uri": "http://datamall.mytransport.sg/LTAoDataService.svc/SBSTInfoSet(5967001)", "type": "LTAModel.SBSTInfo"
+}, "SBSTInfoID": 5967001, "SI_SVC_NUM": "60", "SI_SVC_DIR": "1", "SI_SVC_CAT": "TRUNK ", "SI_BS_CODE_ST": "82009", "SI_BS_CODE_END": "82009", "SI_FREQ_AM_PK": "06-10", "SI_FREQ_AM_OF": "05-10", "SI_FREQ_PM_PK": "05-12", "SI_FREQ_PM_OF": "05-17", "SI_LOOP": "Bedok North Dr                  ", "Summary": "SI_SVC_NUM: 60 SI_SVC_DIR: 1 SI_SVC_CAT: TRUNK  ", "CreateDate": "\/Date(1428319960167)\/"
+}, {
+"__metadata": {
+"uri": "http://datamall.mytransport.sg/LTAoDataService.svc/SBSTInfoSet(5967002)", "type": "LTAModel.SBSTInfo"
+}, "SBSTInfoID": 5967002, "SI_SVC_NUM": "62", "SI_SVC_DIR": "1", "SI_SVC_CAT": "TRUNK ", "SI_BS_CODE_ST": "65009", "SI_BS_CODE_END": "65009", "SI_FREQ_AM_PK": "08-09", "SI_FREQ_AM_OF": "08-17", "SI_FREQ_PM_PK": "09-20", "SI_FREQ_PM_OF": "13-20", "SI_LOOP": "Sims Ave                        ", "Summary": "SI_SVC_NUM: 62 SI_SVC_DIR: 1 SI_SVC_CAT: TRUNK  ", "CreateDate": "\/Date(1428319960170)\/"
+}, {
+"__metadata": {
+"uri": "http://datamall.mytransport.sg/LTAoDataService.svc/SBSTInfoSet(5967003)", "type": "LTAModel.SBSTInfo"
+}, "SBSTInfoID": 5967003, "SI_SVC_NUM": "63", "SI_SVC_DIR": "1", "SI_SVC_CAT": "TRUNK ", "SI_BS_CODE_ST": "82009", "SI_BS_CODE_END": "82009", "SI_FREQ_AM_PK": "07-09", "SI_FREQ_AM_OF": "09-15", "SI_FREQ_PM_PK": "09-14", "SI_FREQ_PM_OF": "11-14", "SI_LOOP": "Jln Rumah Tinggi                ", "Summary": "SI_SVC_NUM: 63 SI_SVC_DIR: 1 SI_SVC_CAT: TRUNK  ", "CreateDate": "\/Date(1428319960180)\/"
+}, {
+"__metadata": {
+"uri": "http://datamall.mytransport.sg/LTAoDataService.svc/SBSTInfoSet(5967004)", "type": "LTAModel.SBSTInfo"
+}, "SBSTInfoID": 5967004, "SI_SVC_NUM": "63M", "SI_SVC_DIR": "1", "SI_SVC_CAT": "TRUNK ", "SI_BS_CODE_ST": "82009", "SI_BS_CODE_END": "82009", "SI_FREQ_AM_PK": "07-15", "SI_FREQ_AM_OF": "10-20", "SI_FREQ_PM_PK": "10-20", "SI_FREQ_PM_OF": "10-16", "SI_LOOP": "Circuit Rd                      ", "Summary": "SI_SVC_NUM: 63M SI_SVC_DIR: 1 SI_SVC_CAT: TRUNK  ", "CreateDate": "\/Date(1428319960187)\/"
+}, {
+"__metadata": {
+"uri": "http://datamall.mytransport.sg/LTAoDataService.svc/SBSTInfoSet(5967005)", "type": "LTAModel.SBSTInfo"
+}, "SBSTInfoID": 5967005, "SI_SVC_NUM": "64", "SI_SVC_DIR": "1", "SI_SVC_CAT": "TRUNK ", "SI_BS_CODE_ST": "80289", "SI_BS_CODE_END": "80289", "SI_FREQ_AM_PK": "10-12", "SI_FREQ_AM_OF": "12-16", "SI_FREQ_PM_PK": "14-17", "SI_FREQ_PM_OF": "12-17", "SI_LOOP": "Mei Ling St                     ", "Summary": "SI_SVC_NUM: 64 SI_SVC_DIR: 1 SI_SVC_CAT: TRUNK  ", "CreateDate": "\/Date(1428319960200)\/"
+}, {
+"__metadata": {
+"uri": "http://datamall.mytransport.sg/LTAoDataService.svc/SBSTInfoSet(5967006)", "type": "LTAModel.SBSTInfo"
+}, "SBSTInfoID": 5967006, "SI_SVC_NUM": "65", "SI_SVC_DIR": "1", "SI_SVC_CAT": "TRUNK ", "SI_BS_CODE_ST": "75009", "SI_BS_CODE_END": "14009", "SI_FREQ_AM_PK": "09-10", "SI_FREQ_AM_OF": "08-16", "SI_FREQ_PM_PK": "10-11", "SI_FREQ_PM_OF": "10-15", "SI_LOOP": "                                ", "Summary": "SI_SVC_NUM: 65 SI_SVC_DIR: 1 SI_SVC_CAT: TRUNK  ", "CreateDate": "\/Date(1428319960207)\/"
+}, {
+"__metadata": {
+"uri": "http://datamall.mytransport.sg/LTAoDataService.svc/SBSTInfoSet(5967007)", "type": "LTAModel.SBSTInfo"
+}, "SBSTInfoID": 5967007, "SI_SVC_NUM": "65", "SI_SVC_DIR": "2", "SI_SVC_CAT": "TRUNK ", "SI_BS_CODE_ST": "14009", "SI_BS_CODE_END": "75009", "SI_FREQ_AM_PK": "08-11", "SI_FREQ_AM_OF": "08-12", "SI_FREQ_PM_PK": "10-13", "SI_FREQ_PM_OF": "09-15", "SI_LOOP": "                                ", "Summary": "SI_SVC_NUM: 65 SI_SVC_DIR: 2 SI_SVC_CAT: TRUNK  ", "CreateDate": "\/Date(1428319960220)\/"
+}, {
+"__metadata": {
+"uri": "http://datamall.mytransport.sg/LTAoDataService.svc/SBSTInfoSet(5967008)", "type": "LTAModel.SBSTInfo"
+}, "SBSTInfoID": 5967008, "SI_SVC_NUM": "66", "SI_SVC_DIR": "1", "SI_SVC_CAT": "TRUNK ", "SI_BS_CODE_ST": "84009", "SI_BS_CODE_END": "28009", "SI_FREQ_AM_PK": "10-13", "SI_FREQ_AM_OF": "09-17", "SI_FREQ_PM_PK": "12-15", "SI_FREQ_PM_OF": "15-17", "SI_LOOP": "                                ", "Summary": "SI_SVC_NUM: 66 SI_SVC_DIR: 1 SI_SVC_CAT: TRUNK  ", "CreateDate": "\/Date(1428319960230)\/"
+}, {
+"__metadata": {
+"uri": "http://datamall.mytransport.sg/LTAoDataService.svc/SBSTInfoSet(5967009)", "type": "LTAModel.SBSTInfo"
+}, "SBSTInfoID": 5967009, "SI_SVC_NUM": "66", "SI_SVC_DIR": "2", "SI_SVC_CAT": "TRUNK ", "SI_BS_CODE_ST": "28009", "SI_BS_CODE_END": "84009", "SI_FREQ_AM_PK": "09-13", "SI_FREQ_AM_OF": "10-17", "SI_FREQ_PM_PK": "09-18", "SI_FREQ_PM_OF": "10-19", "SI_LOOP": "                                ", "Summary": "SI_SVC_NUM: 66 SI_SVC_DIR: 2 SI_SVC_CAT: TRUNK  ", "CreateDate": "\/Date(1428319960243)\/"
+}, {
+"__metadata": {
+"uri": "http://datamall.mytransport.sg/LTAoDataService.svc/SBSTInfoSet(5967010)", "type": "LTAModel.SBSTInfo"
+}, "SBSTInfoID": 5967010, "SI_SVC_NUM": "69", "SI_SVC_DIR": "1", "SI_SVC_CAT": "TRUNK ", "SI_BS_CODE_ST": "75009", "SI_BS_CODE_END": "75009", "SI_FREQ_AM_PK": "06-08", "SI_FREQ_AM_OF": "05-12", "SI_FREQ_PM_PK": "06-09", "SI_FREQ_PM_OF": "08-13", "SI_LOOP": "Bedok North Dr                  ", "Summary": "SI_SVC_NUM: 69 SI_SVC_DIR: 1 SI_SVC_CAT: TRUNK  ", "CreateDate": "\/Date(1428319960250)\/"
+}, {
+"__metadata": {
+"uri": "http://datamall.mytransport.sg/LTAoDataService.svc/SBSTInfoSet(5967011)", "type": "LTAModel.SBSTInfo"
+}, "SBSTInfoID": 5967011, "SI_SVC_NUM": "6N", "SI_SVC_DIR": "1", "SI_SVC_CAT": "2-TIER FLAT FARE", "SI_BS_CODE_ST": "02099", "SI_BS_CODE_END": "65201", "SI_FREQ_AM_PK": " - ", "SI_FREQ_AM_OF": " - ", "SI_FREQ_PM_PK": " - ", "SI_FREQ_PM_OF": "30-30", "SI_LOOP": "                                ", "Summary": "SI_SVC_NUM: 6N SI_SVC_DIR: 1 SI_SVC_CAT: 2-TIER FLAT FARE ", "CreateDate": "\/Date(1428319960257)\/"
+}, {
+"__metadata": {
+"uri": "http://datamall.mytransport.sg/LTAoDataService.svc/SBSTInfoSet(5967012)", "type": "LTAModel.SBSTInfo"
+}, "SBSTInfoID": 5967012, "SI_SVC_NUM": "7", "SI_SVC_DIR": "1", "SI_SVC_CAT": "TRUNK ", "SI_BS_CODE_ST": "84009", "SI_BS_CODE_END": "17009", "SI_FREQ_AM_PK": "08-11", "SI_FREQ_AM_OF": "06-13", "SI_FREQ_PM_PK": "09-13", "SI_FREQ_PM_OF": "09-12", "SI_LOOP": "                                ", "Summary": "SI_SVC_NUM: 7 SI_SVC_DIR: 1 SI_SVC_CAT: TRUNK  ", "CreateDate": "\/Date(1428319960267)\/"
+}, {
+"__metadata": {
+"uri": "http://datamall.mytransport.sg/LTAoDataService.svc/SBSTInfoSet(5967013)", "type": "LTAModel.SBSTInfo"
+}, "SBSTInfoID": 5967013, "SI_SVC_NUM": "7", "SI_SVC_DIR": "2", "SI_SVC_CAT": "TRUNK ", "SI_BS_CODE_ST": "17009", "SI_BS_CODE_END": "84009", "SI_FREQ_AM_PK": "09-10", "SI_FREQ_AM_OF": "08-11", "SI_FREQ_PM_PK": "07-13", "SI_FREQ_PM_OF": "08-13", "SI_LOOP": "                                ", "Summary": "SI_SVC_NUM: 7 SI_SVC_DIR: 2 SI_SVC_CAT: TRUNK  ", "CreateDate": "\/Date(1428319960273)\/"
+}, {
+"__metadata": {
+"uri": "http://datamall.mytransport.sg/LTAoDataService.svc/SBSTInfoSet(5967014)", "type": "LTAModel.SBSTInfo"
+}, "SBSTInfoID": 5967014, "SI_SVC_NUM": "70", "SI_SVC_DIR": "1", "SI_SVC_CAT": "TRUNK ", "SI_BS_CODE_ST": "55509", "SI_BS_CODE_END": "03239", "SI_FREQ_AM_PK": "05-13", "SI_FREQ_AM_OF": "07-13", "SI_FREQ_PM_PK": "07-08", "SI_FREQ_PM_OF": " - ", "SI_LOOP": "                                ", "Summary": "SI_SVC_NUM: 70 SI_SVC_DIR: 1 SI_SVC_CAT: TRUNK  ", "CreateDate": "\/Date(1428319960280)\/"
+}, {
+"__metadata": {
+"uri": "http://datamall.mytransport.sg/LTAoDataService.svc/SBSTInfoSet(5967015)", "type": "LTAModel.SBSTInfo"
+}, "SBSTInfoID": 5967015, "SI_SVC_NUM": "70", "SI_SVC_DIR": "2", "SI_SVC_CAT": "TRUNK ", "SI_BS_CODE_ST": "03239", "SI_BS_CODE_END": "55509", "SI_FREQ_AM_PK": "10-12", "SI_FREQ_AM_OF": "07-15", "SI_FREQ_PM_PK": "08-10", "SI_FREQ_PM_OF": "09-14", "SI_LOOP": "                                ", "Summary": "SI_SVC_NUM: 70 SI_SVC_DIR: 2 SI_SVC_CAT: TRUNK  ", "CreateDate": "\/Date(1428319960287)\/"
+}, {
+"__metadata": {
+"uri": "http://datamall.mytransport.sg/LTAoDataService.svc/SBSTInfoSet(5967016)", "type": "LTAModel.SBSTInfo"
+}, "SBSTInfoID": 5967016, "SI_SVC_NUM": "70M", "SI_SVC_DIR": "1", "SI_SVC_CAT": "TRUNK ", "SI_BS_CODE_ST": "55509", "SI_BS_CODE_END": "55509", "SI_FREQ_AM_PK": "13-14", "SI_FREQ_AM_OF": "10-17", "SI_FREQ_PM_PK": "13-19", "SI_FREQ_PM_OF": "12-19", "SI_LOOP": "Temasek Ave                     ", "Summary": "SI_SVC_NUM: 70M SI_SVC_DIR: 1 SI_SVC_CAT: TRUNK  ", "CreateDate": "\/Date(1428319960290)\/"
+}, {
+"__metadata": {
+"uri": "http://datamall.mytransport.sg/LTAoDataService.svc/SBSTInfoSet(5967017)", "type": "LTAModel.SBSTInfo"
+}, "SBSTInfoID": 5967017, "SI_SVC_NUM": "72", "SI_SVC_DIR": "1", "SI_SVC_CAT": "TRUNK ", "SI_BS_CODE_ST": "55509", "SI_BS_CODE_END": "75009", "SI_FREQ_AM_PK": "03-09", "SI_FREQ_AM_OF": "02-13", "SI_FREQ_PM_PK": "04-12", "SI_FREQ_PM_OF": "08-14", "SI_LOOP": "                                ", "Summary": "SI_SVC_NUM: 72 SI_SVC_DIR: 1 SI_SVC_CAT: TRUNK  ", "CreateDate": "\/Date(1428319960297)\/"
+}, {
+"__metadata": {
+"uri": "http://datamall.mytransport.sg/LTAoDataService.svc/SBSTInfoSet(5967018)", "type": "LTAModel.SBSTInfo"
+}, "SBSTInfoID": 5967018, "SI_SVC_NUM": "72", "SI_SVC_DIR": "2", "SI_SVC_CAT": "TRUNK ", "SI_BS_CODE_ST": "75009", "SI_BS_CODE_END": "55509", "SI_FREQ_AM_PK": "05-08", "SI_FREQ_AM_OF": "03-12", "SI_FREQ_PM_PK": "03-07", "SI_FREQ_PM_OF": "06-13", "SI_LOOP": "                                ", "Summary": "SI_SVC_NUM: 72 SI_SVC_DIR: 2 SI_SVC_CAT: TRUNK  ", "CreateDate": "\/Date(1428319960303)\/"
+}, {
+"__metadata": {
+"uri": "http://datamall.mytransport.sg/LTAoDataService.svc/SBSTInfoSet(5967019)", "type": "LTAModel.SBSTInfo"
+}, "SBSTInfoID": 5967019, "SI_SVC_NUM": "73", "SI_SVC_DIR": "1", "SI_SVC_CAT": "TRUNK ", "SI_BS_CODE_ST": "54009", "SI_BS_CODE_END": "54009", "SI_FREQ_AM_PK": "10-16", "SI_FREQ_AM_OF": "09-12", "SI_FREQ_PM_PK": "09-11", "SI_FREQ_PM_OF": "10-12", "SI_LOOP": "Lor 6 Toa Payoh                 ", "Summary": "SI_SVC_NUM: 73 SI_SVC_DIR: 1 SI_SVC_CAT: TRUNK  ", "CreateDate": "\/Date(1428319960310)\/"
+}, {
+"__metadata": {
+"uri": "http://datamall.mytransport.sg/LTAoDataService.svc/SBSTInfoSet(5967020)", "type": "LTAModel.SBSTInfo"
+}, "SBSTInfoID": 5967020, "SI_SVC_NUM": "74", "SI_SVC_DIR": "1", "SI_SVC_CAT": "TRUNK ", "SI_BS_CODE_ST": "64009", "SI_BS_CODE_END": "11379", "SI_FREQ_AM_PK": "05-10", "SI_FREQ_AM_OF": "04-14", "SI_FREQ_PM_PK": "05-10", "SI_FREQ_PM_OF": "09-13", "SI_LOOP": "                                ", "Summary": "SI_SVC_NUM: 74 SI_SVC_DIR: 1 SI_SVC_CAT: TRUNK  ", "CreateDate": "\/Date(1428319960317)\/"
+}, {
+"__metadata": {
+"uri": "http://datamall.mytransport.sg/LTAoDataService.svc/SBSTInfoSet(5967021)", "type": "LTAModel.SBSTInfo"
+}, "SBSTInfoID": 5967021, "SI_SVC_NUM": "74", "SI_SVC_DIR": "2", "SI_SVC_CAT": "TRUNK ", "SI_BS_CODE_ST": "11379", "SI_BS_CODE_END": "64009", "SI_FREQ_AM_PK": "05-18", "SI_FREQ_AM_OF": "04-14", "SI_FREQ_PM_PK": "06-10", "SI_FREQ_PM_OF": "10-12", "SI_LOOP": "                                ", "Summary": "SI_SVC_NUM: 74 SI_SVC_DIR: 2 SI_SVC_CAT: TRUNK  ", "CreateDate": "\/Date(1428319960323)\/"
+}, {
+"__metadata": {
+"uri": "http://datamall.mytransport.sg/LTAoDataService.svc/SBSTInfoSet(5967022)", "type": "LTAModel.SBSTInfo"
+}, "SBSTInfoID": 5967022, "SI_SVC_NUM": "74e", "SI_SVC_DIR": "1", "SI_SVC_CAT": "EXPRESS ", "SI_BS_CODE_ST": "64009", "SI_BS_CODE_END": "11379", "SI_FREQ_AM_PK": "15-15", "SI_FREQ_AM_OF": " - ", "SI_FREQ_PM_PK": " - ", "SI_FREQ_PM_OF": " - ", "SI_LOOP": "                                ", "Summary": "SI_SVC_NUM: 74e SI_SVC_DIR: 1 SI_SVC_CAT: EXPRESS  ", "CreateDate": "\/Date(1428319960330)\/"
+}, {
+"__metadata": {
+"uri": "http://datamall.mytransport.sg/LTAoDataService.svc/SBSTInfoSet(5967023)", "type": "LTAModel.SBSTInfo"
+}, "SBSTInfoID": 5967023, "SI_SVC_NUM": "74e", "SI_SVC_DIR": "2", "SI_SVC_CAT": "EXPRESS ", "SI_BS_CODE_ST": "11379", "SI_BS_CODE_END": "64009", "SI_FREQ_AM_PK": " - ", "SI_FREQ_AM_OF": " - ", "SI_FREQ_PM_PK": "15-15", "SI_FREQ_PM_OF": " - ", "SI_LOOP": "                                ", "Summary": "SI_SVC_NUM: 74e SI_SVC_DIR: 2 SI_SVC_CAT: EXPRESS  ", "CreateDate": "\/Date(1428319960340)\/"
+}, {
+"__metadata": {
+"uri": "http://datamall.mytransport.sg/LTAoDataService.svc/SBSTInfoSet(5967024)", "type": "LTAModel.SBSTInfo"
+}, "SBSTInfoID": 5967024, "SI_SVC_NUM": "76", "SI_SVC_DIR": "1", "SI_SVC_CAT": "TRUNK ", "SI_BS_CODE_ST": "55509", "SI_BS_CODE_END": "55509", "SI_FREQ_AM_PK": "09-12", "SI_FREQ_AM_OF": "09-15", "SI_FREQ_PM_PK": "09-16", "SI_FREQ_PM_OF": "14-16", "SI_LOOP": "Marine Terrace                  ", "Summary": "SI_SVC_NUM: 76 SI_SVC_DIR: 1 SI_SVC_CAT: TRUNK  ", "CreateDate": "\/Date(1428319960347)\/"
+}, {
+"__metadata": {
+"uri": "http://datamall.mytransport.sg/LTAoDataService.svc/SBSTInfoSet(5967025)", "type": "LTAModel.SBSTInfo"
+}, "SBSTInfoID": 5967025, "SI_SVC_NUM": "761", "SI_SVC_DIR": "1", "SI_SVC_CAT": "FLAT FARE $4.20", "SI_BS_CODE_ST": "56251", "SI_BS_CODE_END": "03011", "SI_FREQ_AM_PK": "10-10", "SI_FREQ_AM_OF": " - ", "SI_FREQ_PM_PK": " - ", "SI_FREQ_PM_OF": " - ", "SI_LOOP": "                                ", "Summary": "SI_SVC_NUM: 761 SI_SVC_DIR: 1 SI_SVC_CAT: FLAT FARE $4.20 ", "CreateDate": "\/Date(1428319960353)\/"
+}, {
+"__metadata": {
+"uri": "http://datamall.mytransport.sg/LTAoDataService.svc/SBSTInfoSet(5967026)", "type": "LTAModel.SBSTInfo"
+}, "SBSTInfoID": 5967026, "SI_SVC_NUM": "78", "SI_SVC_DIR": "1", "SI_SVC_CAT": "TRUNK ", "SI_BS_CODE_ST": "28009", "SI_BS_CODE_END": "28009", "SI_FREQ_AM_PK": "05-13", "SI_FREQ_AM_OF": "05-16", "SI_FREQ_PM_PK": "06-08", "SI_FREQ_PM_OF": "13-16", "SI_LOOP": "Clementi Ave 3                  ", "Summary": "SI_SVC_NUM: 78 SI_SVC_DIR: 1 SI_SVC_CAT: TRUNK  ", "CreateDate": "\/Date(1428319960363)\/"
+}, {
+"__metadata": {
+"uri": "http://datamall.mytransport.sg/LTAoDataService.svc/SBSTInfoSet(5967027)", "type": "LTAModel.SBSTInfo"
+}, "SBSTInfoID": 5967027, "SI_SVC_NUM": "79", "SI_SVC_DIR": "1", "SI_SVC_CAT": "TRUNK ", "SI_BS_CODE_ST": "28009", "SI_BS_CODE_END": "28009", "SI_FREQ_AM_PK": "07-11", "SI_FREQ_AM_OF": "08-18", "SI_FREQ_PM_PK": "08-13", "SI_FREQ_PM_OF": "15-18", "SI_LOOP": "Jurong West Ctrl 3              ", "Summary": "SI_SVC_NUM: 79 SI_SVC_DIR: 1 SI_SVC_CAT: TRUNK  ", "CreateDate": "\/Date(1428319960380)\/"
+}, {
+"__metadata": {
+"uri": "http://datamall.mytransport.sg/LTAoDataService.svc/SBSTInfoSet(5967028)", "type": "LTAModel.SBSTInfo"
+}, "SBSTInfoID": 5967028, "SI_SVC_NUM": "8", "SI_SVC_DIR": "1", "SI_SVC_CAT": "TRUNK ", "SI_BS_CODE_ST": "75009", "SI_BS_CODE_END": "52009", "SI_FREQ_AM_PK": "04-07", "SI_FREQ_AM_OF": "05-13", "SI_FREQ_PM_PK": "05-08", "SI_FREQ_PM_OF": "08-14", "SI_LOOP": "                                ", "Summary": "SI_SVC_NUM: 8 SI_SVC_DIR: 1 SI_SVC_CAT: TRUNK  ", "CreateDate": "\/Date(1428319960387)\/"
+}, {
+"__metadata": {
+"uri": "http://datamall.mytransport.sg/LTAoDataService.svc/SBSTInfoSet(5967029)", "type": "LTAModel.SBSTInfo"
+}, "SBSTInfoID": 5967029, "SI_SVC_NUM": "8", "SI_SVC_DIR": "2", "SI_SVC_CAT": "TRUNK ", "SI_BS_CODE_ST": "52009", "SI_BS_CODE_END": "75009", "SI_FREQ_AM_PK": "05-07", "SI_FREQ_AM_OF": "05-14", "SI_FREQ_PM_PK": "05-08", "SI_FREQ_PM_OF": "08-16", "SI_LOOP": "                                ", "Summary": "SI_SVC_NUM: 8 SI_SVC_DIR: 2 SI_SVC_CAT: TRUNK  ", "CreateDate": "\/Date(1428319960393)\/"
+}, {
+"__metadata": {
+"uri": "http://datamall.mytransport.sg/LTAoDataService.svc/SBSTInfoSet(5967030)", "type": "LTAModel.SBSTInfo"
+}, "SBSTInfoID": 5967030, "SI_SVC_NUM": "80", "SI_SVC_DIR": "1", "SI_SVC_CAT": "TRUNK ", "SI_BS_CODE_ST": "67009", "SI_BS_CODE_END": "14009", "SI_FREQ_AM_PK": "05-15", "SI_FREQ_AM_OF": "08-18", "SI_FREQ_PM_PK": "12-15", "SI_FREQ_PM_OF": "14-17", "SI_LOOP": "                                ", "Summary": "SI_SVC_NUM: 80 SI_SVC_DIR: 1 SI_SVC_CAT: TRUNK  ", "CreateDate": "\/Date(1428319960407)\/"
+}, {
+"__metadata": {
+"uri": "http://datamall.mytransport.sg/LTAoDataService.svc/SBSTInfoSet(5967031)", "type": "LTAModel.SBSTInfo"
+}, "SBSTInfoID": 5967031, "SI_SVC_NUM": "80", "SI_SVC_DIR": "2", "SI_SVC_CAT": "TRUNK ", "SI_BS_CODE_ST": "14009", "SI_BS_CODE_END": "67009", "SI_FREQ_AM_PK": "09-13", "SI_FREQ_AM_OF": "12-20", "SI_FREQ_PM_PK": "10-15", "SI_FREQ_PM_OF": "14-17", "SI_LOOP": "                                ", "Summary": "SI_SVC_NUM: 80 SI_SVC_DIR: 2 SI_SVC_CAT: TRUNK  ", "CreateDate": "\/Date(1428319960413)\/"
+}, {
+"__metadata": {
+"uri": "http://datamall.mytransport.sg/LTAoDataService.svc/SBSTInfoSet(5967032)", "type": "LTAModel.SBSTInfo"
+}, "SBSTInfoID": 5967032, "SI_SVC_NUM": "81", "SI_SVC_DIR": "1", "SI_SVC_CAT": "TRUNK ", "SI_BS_CODE_ST": "75009", "SI_BS_CODE_END": "75009", "SI_FREQ_AM_PK": "09-12", "SI_FREQ_AM_OF": "07-12", "SI_FREQ_PM_PK": "07-14", "SI_FREQ_PM_OF": "13-18", "SI_LOOP": "Serangoon Central               ", "Summary": "SI_SVC_NUM: 81 SI_SVC_DIR: 1 SI_SVC_CAT: TRUNK  ", "CreateDate": "\/Date(1428319960420)\/"
+}, {
+"__metadata": {
+"uri": "http://datamall.mytransport.sg/LTAoDataService.svc/SBSTInfoSet(5967033)", "type": "LTAModel.SBSTInfo"
+}, "SBSTInfoID": 5967033, "SI_SVC_NUM": "82", "SI_SVC_DIR": "1", "SI_SVC_CAT": "TRUNK ", "SI_BS_CODE_ST": "65009", "SI_BS_CODE_END": "65009", "SI_FREQ_AM_PK": "10-15", "SI_FREQ_AM_OF": "13-15", "SI_FREQ_PM_PK": "10-17", "SI_FREQ_PM_OF": "13-17", "SI_LOOP": "Serangoon Central               ", "Summary": "SI_SVC_NUM: 82 SI_SVC_DIR: 1 SI_SVC_CAT: TRUNK  ", "CreateDate": "\/Date(1428319960427)\/"
+}, {
+"__metadata": {
+"uri": "http://datamall.mytransport.sg/LTAoDataService.svc/SBSTInfoSet(5967034)", "type": "LTAModel.SBSTInfo"
+}, "SBSTInfoID": 5967034, "SI_SVC_NUM": "83", "SI_SVC_DIR": "1", "SI_SVC_CAT": "TRUNK ", "SI_BS_CODE_ST": "65009", "SI_BS_CODE_END": "65009", "SI_FREQ_AM_PK": "10-13", "SI_FREQ_AM_OF": "09-14", "SI_FREQ_PM_PK": "10-10", "SI_FREQ_PM_OF": "12-16", "SI_LOOP": "Sengkang Sq                     ", "Summary": "SI_SVC_NUM: 83 SI_SVC_DIR: 1 SI_SVC_CAT: TRUNK  ", "CreateDate": "\/Date(1428319960433)\/"
+}, {
+"__metadata": {
+"uri": "http://datamall.mytransport.sg/LTAoDataService.svc/SBSTInfoSet(5967035)", "type": "LTAModel.SBSTInfo"
+}, "SBSTInfoID": 5967035, "SI_SVC_NUM": "84", "SI_SVC_DIR": "1", "SI_SVC_CAT": "TRUNK ", "SI_BS_CODE_ST": "65009", "SI_BS_CODE_END": "65009", "SI_FREQ_AM_PK": "09-12", "SI_FREQ_AM_OF": "08-18", "SI_FREQ_PM_PK": "09-17", "SI_FREQ_PM_OF": "08-13", "SI_LOOP": "Punggol Rd                      ", "Summary": "SI_SVC_NUM: 84 SI_SVC_DIR: 1 SI_SVC_CAT: TRUNK  ", "CreateDate": "\/Date(1428319960447)\/"
+}, {
+"__metadata": {
+"uri": "http://datamall.mytransport.sg/LTAoDataService.svc/SBSTInfoSet(5967036)", "type": "LTAModel.SBSTInfo"
+}, "SBSTInfoID": 5967036, "SI_SVC_NUM": "85", "SI_SVC_DIR": "1", "SI_SVC_CAT": "TRUNK ", "SI_BS_CODE_ST": "65009", "SI_BS_CODE_END": "59009", "SI_FREQ_AM_PK": "09-13", "SI_FREQ_AM_OF": "08-16", "SI_FREQ_PM_PK": "12-13", "SI_FREQ_PM_OF": "16-17", "SI_LOOP": "                                ", "Summary": "SI_SVC_NUM: 85 SI_SVC_DIR: 1 SI_SVC_CAT: TRUNK  ", "CreateDate": "\/Date(1428319960457)\/"
+}, {
+"__metadata": {
+"uri": "http://datamall.mytransport.sg/LTAoDataService.svc/SBSTInfoSet(5967037)", "type": "LTAModel.SBSTInfo"
+}, "SBSTInfoID": 5967037, "SI_SVC_NUM": "85", "SI_SVC_DIR": "2", "SI_SVC_CAT": "TRUNK ", "SI_BS_CODE_ST": "59009", "SI_BS_CODE_END": "65009", "SI_FREQ_AM_PK": "10-14", "SI_FREQ_AM_OF": "10-16", "SI_FREQ_PM_PK": "10-13", "SI_FREQ_PM_OF": "15-17", "SI_LOOP": "                                ", "Summary": "SI_SVC_NUM: 85 SI_SVC_DIR: 2 SI_SVC_CAT: TRUNK  ", "CreateDate": "\/Date(1428319960460)\/"
+}, {
+"__metadata": {
+"uri": "http://datamall.mytransport.sg/LTAoDataService.svc/SBSTInfoSet(5967038)", "type": "LTAModel.SBSTInfo"
+}, "SBSTInfoID": 5967038, "SI_SVC_NUM": "86", "SI_SVC_DIR": "1", "SI_SVC_CAT": "TRUNK ", "SI_BS_CODE_ST": "67009", "SI_BS_CODE_END": "54009", "SI_FREQ_AM_PK": "07-12", "SI_FREQ_AM_OF": "08-13", "SI_FREQ_PM_PK": "08-12", "SI_FREQ_PM_OF": "09-15", "SI_LOOP": "                                ", "Summary": "SI_SVC_NUM: 86 SI_SVC_DIR: 1 SI_SVC_CAT: TRUNK  ", "CreateDate": "\/Date(1428319960467)\/"
+}, {
+"__metadata": {
+"uri": "http://datamall.mytransport.sg/LTAoDataService.svc/SBSTInfoSet(5967039)", "type": "LTAModel.SBSTInfo"
+}, "SBSTInfoID": 5967039, "SI_SVC_NUM": "86", "SI_SVC_DIR": "2", "SI_SVC_CAT": "TRUNK ", "SI_BS_CODE_ST": "54009", "SI_BS_CODE_END": "67009", "SI_FREQ_AM_PK": "11-14", "SI_FREQ_AM_OF": "08-13", "SI_FREQ_PM_PK": "08-12", "SI_FREQ_PM_OF": "13-17", "SI_LOOP": "                                ", "Summary": "SI_SVC_NUM: 86 SI_SVC_DIR: 2 SI_SVC_CAT: TRUNK  ", "CreateDate": "\/Date(1428319960477)\/"
+}, {
+"__metadata": {
+"uri": "http://datamall.mytransport.sg/LTAoDataService.svc/SBSTInfoSet(5967040)", "type": "LTAModel.SBSTInfo"
+}, "SBSTInfoID": 5967040, "SI_SVC_NUM": "87", "SI_SVC_DIR": "1", "SI_SVC_CAT": "TRUNK ", "SI_BS_CODE_ST": "67009", "SI_BS_CODE_END": "84009", "SI_FREQ_AM_PK": "04-09", "SI_FREQ_AM_OF": "04-15", "SI_FREQ_PM_PK": "05-09", "SI_FREQ_PM_OF": "05-17", "SI_LOOP": "                                ", "Summary": "SI_SVC_NUM: 87 SI_SVC_DIR: 1 SI_SVC_CAT: TRUNK  ", "CreateDate": "\/Date(1428319960483)\/"
+}, {
+"__metadata": {
+"uri": "http://datamall.mytransport.sg/LTAoDataService.svc/SBSTInfoSet(5967041)", "type": "LTAModel.SBSTInfo"
+}, "SBSTInfoID": 5967041, "SI_SVC_NUM": "87", "SI_SVC_DIR": "2", "SI_SVC_CAT": "TRUNK ", "SI_BS_CODE_ST": "84009", "SI_BS_CODE_END": "67009", "SI_FREQ_AM_PK": "04-09", "SI_FREQ_AM_OF": "04-14", "SI_FREQ_PM_PK": "05-15", "SI_FREQ_PM_OF": "13-17", "SI_LOOP": "                                ", "Summary": "SI_SVC_NUM: 87 SI_SVC_DIR: 2 SI_SVC_CAT: TRUNK  ", "CreateDate": "\/Date(1428319960493)\/"
+}, {
+"__metadata": {
+"uri": "http://datamall.mytransport.sg/LTAoDataService.svc/SBSTInfoSet(5967042)", "type": "LTAModel.SBSTInfo"
+}, "SBSTInfoID": 5967042, "SI_SVC_NUM": "88", "SI_SVC_DIR": "1", "SI_SVC_CAT": "TRUNK ", "SI_BS_CODE_ST": "77009", "SI_BS_CODE_END": "52009", "SI_FREQ_AM_PK": "06-09", "SI_FREQ_AM_OF": "06-13", "SI_FREQ_PM_PK": "07-10", "SI_FREQ_PM_OF": "08-13", "SI_LOOP": "                                ", "Summary": "SI_SVC_NUM: 88 SI_SVC_DIR: 1 SI_SVC_CAT: TRUNK  ", "CreateDate": "\/Date(1428319960503)\/"
+}, {
+"__metadata": {
+"uri": "http://datamall.mytransport.sg/LTAoDataService.svc/SBSTInfoSet(5967043)", "type": "LTAModel.SBSTInfo"
+}, "SBSTInfoID": 5967043, "SI_SVC_NUM": "88", "SI_SVC_DIR": "2", "SI_SVC_CAT": "TRUNK ", "SI_BS_CODE_ST": "52009", "SI_BS_CODE_END": "77009", "SI_FREQ_AM_PK": "08-10", "SI_FREQ_AM_OF": "05-13", "SI_FREQ_PM_PK": "06-09", "SI_FREQ_PM_OF": "08-14", "SI_LOOP": "                                ", "Summary": "SI_SVC_NUM: 88 SI_SVC_DIR: 2 SI_SVC_CAT: TRUNK  ", "CreateDate": "\/Date(1428319960510)\/"
+}, {
+"__metadata": {
+"uri": "http://datamall.mytransport.sg/LTAoDataService.svc/SBSTInfoSet(5967044)", "type": "LTAModel.SBSTInfo"
+}, "SBSTInfoID": 5967044, "SI_SVC_NUM": "89", "SI_SVC_DIR": "1", "SI_SVC_CAT": "TRUNK ", "SI_BS_CODE_ST": "64009", "SI_BS_CODE_END": "64009", "SI_FREQ_AM_PK": "08-12", "SI_FREQ_AM_OF": "05-15", "SI_FREQ_PM_PK": "08-16", "SI_FREQ_PM_OF": "14-16", "SI_LOOP": "Airport Cargo Rd                ", "Summary": "SI_SVC_NUM: 89 SI_SVC_DIR: 1 SI_SVC_CAT: TRUNK  ", "CreateDate": "\/Date(1428319960517)\/"
+}
+]
+}
