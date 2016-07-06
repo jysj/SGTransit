@@ -47,7 +47,7 @@ public class BusStopTime extends AppCompatActivity {
     String display1 = null;
     String display2 = null;
     String status = null;
-    int arrivalTextViewStatus = 0;
+    int refreshStatus = 2;
     ListView yourListView = null;
     ListAdapter customAdapter = null;
     long queryTime = 0;
@@ -199,15 +199,14 @@ public class BusStopTime extends AppCompatActivity {
                 Log.e("ServiceHandler", "Couldn't get any data from the url");
             }
 
-            // p.get("Arrival1")
-            arrivalTextViewStatus = 1;
             return null;
         }
 
         @Override
         protected void onPostExecute(Void result) {
             super.onPostExecute(result);
-            customAdapter.setbusservicetimeList(busservicetimeList);
+            refreshStatus = 0;
+            customAdapter.setBusServiceTimeList(busservicetimeList);
             customAdapter.notifyDataSetChanged();
             swipeContainer.setRefreshing(false);
         }
@@ -294,15 +293,14 @@ public class BusStopTime extends AppCompatActivity {
                 arrivaltimeList.set(position, arrivaltime);
             }
 
-            // q.get("Arrival1")
-            arrivalTextViewStatus = 2;
             return null;
         }
 
         @Override
         protected void onPostExecute(Void result) {
             super.onPostExecute(result);
-           // customAdapter.setarrivaltimeList(arrivaltimeList);
+            refreshStatus = 1;
+            customAdapter.setArrivalTimeList(arrivaltimeList);
             customAdapter.notifyDataSetChanged();
         }
     }
@@ -354,7 +352,7 @@ public class BusStopTime extends AppCompatActivity {
             }
 
             if (holder.Arrival != null) {
-                if (q.get("Arrival1") != null && selected[position] == 1 && arrivalTextViewStatus == 2) {      // q.get("Arrival1")
+                if (q.get("Arrival1") != null && refreshStatus == 1) {          // Click to update
                     holder.spinner.setVisibility(View.GONE);
                     if (("No Est. Available".equals(q.get("Arrival1")) && "No Est. Available".equals(q.get("Arrival2"))) || ("Not Operating Now".equals(q.get("Arrival1")) && "Not Operating Now".equals(q.get("Arrival2"))))
                         holder.Arrival.setText(q.get("Arrival1"));
@@ -374,7 +372,7 @@ public class BusStopTime extends AppCompatActivity {
 
                         holder.Arrival.setText(TextUtils.concat(ss1, "\n", ss2));
                     }
-                } else if (p.get("Arrival1") != null && arrivalTextViewStatus == 1) {    // p.get("Arrival1")
+                } else if (p.get("Arrival1") != null) {                         // Pull to refresh
                     holder.spinner.setVisibility(View.GONE);
                     if (("No Est. Available".equals(p.get("Arrival1")) && "No Est. Available".equals(p.get("Arrival2"))) || ("Not Operating Now".equals(p.get("Arrival1")) && "Not Operating Now".equals(p.get("Arrival2"))))
                         holder.Arrival.setText(p.get("Arrival1"));
@@ -426,13 +424,13 @@ public class BusStopTime extends AppCompatActivity {
             return row;
         }
 
-        public void setbusservicetimeList(ArrayList<HashMap<String, String>> busservicetimeList) {
+        public void setBusServiceTimeList(ArrayList<HashMap<String, String>> busservicetimeList) {
             this.MessageAdapter = busservicetimeList;
         }
 
-/*        public void setarrivaltimeList(ArrayList<HashMap<String, String>> arrivaltimeList) {
+       public void setArrivalTimeList(ArrayList<HashMap<String, String>> arrivaltimeList) {
             this.ArrivalAdapter = arrivaltimeList;
-        }*/
+        }
 
         class Holder {
             TextView BusService;
