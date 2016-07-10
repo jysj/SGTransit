@@ -111,6 +111,9 @@ public class SplashScreenNetwork extends Activity {
 
     }
 
+    /**
+     * Function to check if the phone is online or offline
+     */
     public boolean isOnline() {
         ConnectivityManager cm =
                 (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);

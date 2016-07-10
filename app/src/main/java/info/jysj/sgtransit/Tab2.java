@@ -49,10 +49,11 @@ public class Tab2 extends ListFragment {
     private static final String TAG_SUMMARY = "Summary";
     private static final String TAG_CREATEDATE = "CreateDate";
 
+    // Initialise variables
     public int index;
     public int top;
 
-    // contacts JSONArray
+    // JSONArray
     JSONArray busservices = null;
 
     // Hashmap for ListView
@@ -77,7 +78,7 @@ public class Tab2 extends ListFragment {
         super.onViewCreated(view, savedInstanceState);
         ListView lv = (ListView) view.findViewById(android.R.id.list);
 
-        // Listview on item click listener
+        // OnClickListener to launch new activity, BusServiceTime
         lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
             @Override
@@ -104,7 +105,7 @@ public class Tab2 extends ListFragment {
     }
 
     /**
-     * Async task class to get json by making HTTP call
+     * Load bus services from JSON file
      */
     private class BusServices extends AsyncTask<Void, Void, Void> {
 
@@ -126,11 +127,10 @@ public class Tab2 extends ListFragment {
                     // Getting JSON Array node
                     busservices = jsonObj.getJSONArray(TAG_D);
 
-                    // looping through All Contacts
+                    // looping through All Bus Services
                     for (int j = 0; j < busservices.length(); j++) {
                         JSONObject c = busservices.getJSONObject(j);
 
-                        // Phone node is JSON Object
                         JSONObject metadata = c.getJSONObject(TAG_METADATA);
                         String uri = metadata.getString(TAG_URI);
                         String type = metadata.getString(TAG_TYPE);
@@ -148,7 +148,7 @@ public class Tab2 extends ListFragment {
                         //String summary = c.getString(TAG_SUMMARY);
                         //String createdate = c.getString(TAG_CREATEDATE);
 
-                        // tmp hashmap for single contact
+                        // tmp hashmap
                         HashMap<String, String> busservice = new HashMap<String, String>();
 
                         // adding each child node to HashMap key => value
@@ -160,11 +160,12 @@ public class Tab2 extends ListFragment {
                             busservice.put("InfoID", "SBST");
                         }
 
-                        // adding contact to contact list
+                        // adding busservice to busservicesList
                         busservicesList.add(busservice);
                     }
                 }
 
+                // Sort data in ascending order
                 Collections.sort(busservicesList, new MapComparator("ServiceNo"));
 
 /*                for(HashMap<String, String> map: busservicesList) {
@@ -190,8 +191,8 @@ public class Tab2 extends ListFragment {
              * Updating parsed JSON data into ListView
              * */
             ListAdapter adapter = new SimpleAdapter(
-                    getActivity(), busservicesList,
-                    R.layout.list_item_2, new String[]{"ServiceNo", "ServiceDir"},
+                    getActivity(), busservicesList, R.layout.list_item_2,
+                    new String[]{"ServiceNo", "ServiceDir"},
                     new int[]{R.id.serviceno, R.id.servicedir});
 
             setListAdapter(adapter);
@@ -199,6 +200,9 @@ public class Tab2 extends ListFragment {
 
     }
 
+    /**
+     * Function to read JSON from file
+     */
     public String loadJSONFromAsset(String file) {
         String jsonStr = null;
         try {
@@ -216,6 +220,9 @@ public class Tab2 extends ListFragment {
 
     }
 
+    /**
+     * Function to sort data in ascending order
+     */
     class MapComparator implements Comparator<HashMap<String, String>> {
         private final String key;
 

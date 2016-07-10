@@ -28,7 +28,7 @@ public class Tab1 extends ListFragment implements SwipeRefreshLayout.OnRefreshLi
     private ProgressDialog pDialog;
     private SwipeRefreshLayout swipeContainer;
 
-    // URL to get contacts JSON
+    // URL to get JSON
     private static String url = "http://datamall2.mytransport.sg/ltaodataservice/BusArrival?BusStopID=59009&SST=True";
 
     // JSON Node names
@@ -45,16 +45,16 @@ public class Tab1 extends ListFragment implements SwipeRefreshLayout.OnRefreshLi
     private static final String TAG_SUBSEQUENTBUS_LOAD = "Load";
     private static final String TAG_SUBSEQUENTBUS_FEATURE = "Feature";
 
-    // contacts JSONArray
-    JSONArray contacts = null;
+    // JSONArray
+    JSONArray busservices = null;
 
     // Hashmap for ListView
-    ArrayList<HashMap<String, String>> contactList;
+    ArrayList<HashMap<String, String>> busservicetimeList;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        contactList = new ArrayList<HashMap<String, String>>();
+        busservicetimeList = new ArrayList<HashMap<String, String>>();
         // Calling async task to get json
         new BusStops().execute();
     }
@@ -63,6 +63,7 @@ public class Tab1 extends ListFragment implements SwipeRefreshLayout.OnRefreshLi
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.tab_1, container, false);
 
+        // Initialise Pull to Refresh
         swipeContainer = (SwipeRefreshLayout) v.findViewById(R.id.swipeContainer);
         // Setup refresh listener which triggers new data loading
         swipeContainer.setOnRefreshListener(this);
@@ -78,7 +79,7 @@ public class Tab1 extends ListFragment implements SwipeRefreshLayout.OnRefreshLi
         // Your code to refresh the list here.
         // Make sure you call swipeContainer.setRefreshing(false)
         // once the network request has completed successfully.
-        contactList = new ArrayList<HashMap<String, String>>();
+        busservicetimeList = new ArrayList<HashMap<String, String>>();
 
         // Calling async task to get json
         new BusStops().execute();
@@ -95,7 +96,8 @@ public class Tab1 extends ListFragment implements SwipeRefreshLayout.OnRefreshLi
     }
 
     /**
-     * Async task class to get json by making HTTP call
+     * AsyncTask
+     * Load bus services at a particular bus stop
      */
     private class BusStops extends AsyncTask<Void, Void, Void> {
 
@@ -122,41 +124,42 @@ public class Tab1 extends ListFragment implements SwipeRefreshLayout.OnRefreshLi
                     JSONObject jsonObj = new JSONObject(jsonStr);
 
                     // Getting JSON Array node
-                    contacts = jsonObj.getJSONArray(TAG_SERVICES);
+                    busservices = jsonObj.getJSONArray(TAG_SERVICES);
 
-                    // looping through All Contacts
-                    for (int i = 0; i < contacts.length(); i++) {
-                        JSONObject c = contacts.getJSONObject(i);
+                    // looping through All Bus Services
+                    for (int i = 0; i < busservices.length(); i++) {
+                        JSONObject c = busservices.getJSONObject(i);
 
                         String serviceno = c.getString(TAG_SERVICENO);
                         String status = c.getString(TAG_STATUS);
                         String operator = c.getString(TAG_OPERATOR);
 
-                        // Phone node is JSON Object
+                        // Next Bus
                         JSONObject nextbus = c.getJSONObject(TAG_NEXTBUS);
                         String arrival1 = nextbus.getString(TAG_NEXTBUS_ESTIMATED_ARRIVAL);
                         String load1 = nextbus.getString(TAG_NEXTBUS_LOAD);
                         String feature1 = nextbus.getString(TAG_NEXTBUS_FEATURE);
 
-                        // Phone node is JSON Object
+                        // Subsequent Bus
                         JSONObject subsequentbus = c.getJSONObject(TAG_SUBSEQUENTBUS);
                         String arrival2 = subsequentbus.getString(TAG_SUBSEQUENTBUS_ESTIMATED_ARRIVAL);
                         String load2 = subsequentbus.getString(TAG_SUBSEQUENTBUS_LOAD);
                         String feature2 = subsequentbus.getString(TAG_SUBSEQUENTBUS_FEATURE);
 
-                        // tmp hashmap for single contact
-                        HashMap<String, String> contact = new HashMap<String, String>();
+                        // tmp hashmap
+                        HashMap<String, String> busservicetime = new HashMap<String, String>();
 
                         // adding each child node to HashMap key => value
-                        contact.put("ServiceNo", serviceno);
-                        contact.put("NextBusArrival", arrival1);
-                        contact.put("SubsequentBusArrival", arrival2);
+                        busservicetime.put("ServiceNo", serviceno);
+                        busservicetime.put("NextBusArrival", arrival1);
+                        busservicetime.put("SubsequentBusArrival", arrival2);
 
-                        // adding contact to contact list
-                        contactList.add(contact);
+                        // adding busservicetime to  busservicetimeList
+                        busservicetimeList.add(busservicetime);
                     }
 
-                    Collections.sort(contactList, new MapComparator("ServiceNo"));
+                    // Sort data in ascending order
+                    Collections.sort(busservicetimeList, new MapComparator("ServiceNo"));
 
                 } catch (JSONException e) {
                     e.printStackTrace();
@@ -177,18 +180,18 @@ public class Tab1 extends ListFragment implements SwipeRefreshLayout.OnRefreshLi
             /**
              * Updating parsed JSON data into ListView
              * */
-            ListAdapter adapter = new SimpleAdapter(
-                    getActivity(), contactList,
-                    R.layout.list_item, new String[]{"ServiceNo", "NextBusArrival",
-                    "SubsequentBusArrival"}, new int[]{R.id.serviceno,
-                    R.id.arrival1, R.id.arrival2});
-
+            ListAdapter adapter = new SimpleAdapter(getActivity(), busservicetimeList, R.layout.list_item,
+                    new String[]{"ServiceNo", "NextBusArrival", "SubsequentBusArrival"},
+                    new int[]{R.id.serviceno, R.id.arrival1, R.id.arrival2});
             setListAdapter(adapter);
             swipeContainer.setRefreshing(false);
         }
 
     }
 
+    /**
+     * Function to sort data in ascending order
+     */
     class MapComparator implements Comparator<HashMap<String, String>> {
         private final String key;
 

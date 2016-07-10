@@ -39,8 +39,10 @@ import java.util.HashMap;
 
 public class BusStopTime extends AppCompatActivity {
 
+    // Initialise Pull to Refresh
     private SwipeRefreshLayout swipeContainer;
 
+    // Initialise variables
     String BusStopCode = null;
     String arrival1 = null;
     String arrival2 = null;
@@ -66,7 +68,7 @@ public class BusStopTime extends AppCompatActivity {
     private static final String TAG_SUBSEQUENTBUS_LOAD = "Load";
     private static final String TAG_SUBSEQUENTBUS_FEATURE = "Feature";
 
-    // contacts JSONArray
+    // JSONArray
     JSONArray busservices = null;
     JSONArray bustime = null;
 
@@ -79,9 +81,11 @@ public class BusStopTime extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.bus_stop_list);
 
+        // Get data from BusServiceTime
         Intent i = getIntent();
         BusStopCode = i.getExtras().getString("BusStopCode");
 
+        // Creating The Toolbar and setting it as the Toolbar for the activity
         Toolbar toolbar = (Toolbar) findViewById(R.id.tool_bar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -92,18 +96,17 @@ public class BusStopTime extends AppCompatActivity {
         // Calling async task to get json
         new BusStopsTime().execute();
 
+        // Custom Adapter
         yourListView = (ListView) findViewById(android.R.id.list);
         customAdapter = new ListAdapter(this, R.layout.bus_stop_list_item, busservicetimeList, arrivaltimeList);
         yourListView.setAdapter(customAdapter);
 
+        // Initialise Pull to Refresh
         swipeContainer = (SwipeRefreshLayout) findViewById(R.id.swipeContainer);
         // Setup refresh listener which triggers new data loading
         swipeContainer.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
-                // Your code to refresh the list here.
-                // Make sure you call swipeContainer.setRefreshing(false)
-                // once the network request has completed successfully.
                 busservicetimeList = new ArrayList<HashMap<String, String>>();
                 arrivaltimeList = new ArrayList<HashMap<String, String>>(Collections.nCopies(100, new HashMap<String, String>()));
 
@@ -130,7 +133,8 @@ public class BusStopTime extends AppCompatActivity {
     }
 
     /**
-     * Async task class to get json by making HTTP call
+     * AsyncTask
+     * Load bus services at a particular bus stop
      */
     private class BusStopsTime extends AsyncTask<Void, Void, Void> {
 
@@ -166,12 +170,14 @@ public class BusStopTime extends AppCompatActivity {
                         String status = c.getString(TAG_STATUS);
                         String operator = c.getString(TAG_OPERATOR);
 
+                        // Next Bus
                         JSONObject nextbus = c.getJSONObject(TAG_NEXTBUS);
                         arrival1 = nextbus.getString(TAG_NEXTBUS_ESTIMATED_ARRIVAL);
                         display1 = MessageDisplay(status, queryTime, arrival1);
                         String load1 = nextbus.getString(TAG_NEXTBUS_LOAD);
                         String feature1 = nextbus.getString(TAG_NEXTBUS_FEATURE);
 
+                        // Subsequent Bus
                         JSONObject subsequentbus = c.getJSONObject(TAG_SUBSEQUENTBUS);
                         arrival2 = subsequentbus.getString(TAG_SUBSEQUENTBUS_ESTIMATED_ARRIVAL);
                         display2 = MessageDisplay(status, queryTime, arrival2);
@@ -186,10 +192,11 @@ public class BusStopTime extends AppCompatActivity {
                         busservicetime.put("Arrival1", display1);
                         busservicetime.put("Arrival2", display2);
 
-                        // adding contact to contact list
+                        // adding busservicetime to  busservicetimeList
                         busservicetimeList.add(busservicetime);
                     }
 
+                    // Sort data in ascending order
                     Collections.sort(busservicetimeList, new MapComparator("ServiceNo"));
 
                 } catch (JSONException e) {
@@ -213,6 +220,10 @@ public class BusStopTime extends AppCompatActivity {
 
     }
 
+    /**
+     * AsyncTask
+     * Update time when user clicks on button
+     */
     private class UpdateTime extends AsyncTask<Void, Void, Void> {
         String ServiceNumber;
         int position;
@@ -250,12 +261,12 @@ public class BusStopTime extends AppCompatActivity {
                         JSONObject o = bustime.getJSONObject(0);
                         status = o.getString(TAG_STATUS);
 
-                        // Phone node is JSON Object
+                        // Next Bus
                         JSONObject nextbus = o.getJSONObject(TAG_NEXTBUS);
                         arrival1 = nextbus.getString(TAG_NEXTBUS_ESTIMATED_ARRIVAL);
                         display1 = MessageDisplay(status, queryTime, arrival1);
 
-                        // Phone node is JSON Object
+                        // Subsequent Bus
                         JSONObject subsequentbus = o.getJSONObject(TAG_SUBSEQUENTBUS);
                         arrival2 = subsequentbus.getString(TAG_SUBSEQUENTBUS_ESTIMATED_ARRIVAL);
                         display2 = MessageDisplay(status, queryTime, arrival2);
@@ -265,7 +276,7 @@ public class BusStopTime extends AppCompatActivity {
                         display2 = "Not a Bus Stop";
                     }
 
-                    // tmp hashmap for single contact
+                    // tmp hashmap
                     HashMap<String, String> arrivaltime = new HashMap<String, String>();
 
                     // adding each child node to HashMap key => value
@@ -282,7 +293,7 @@ public class BusStopTime extends AppCompatActivity {
                 display1 = null;
                 display2 = null;
 
-                // tmp hashmap for single contact
+                // tmp hashmap
                 HashMap<String, String> arrivaltime = new HashMap<String, String>();
 
                 // adding each child node to HashMap key => value
@@ -305,6 +316,9 @@ public class BusStopTime extends AppCompatActivity {
         }
     }
 
+    /**
+     * Custom adapter for ListView
+     */
     public class ListAdapter extends ArrayAdapter<HashMap<String, String>> {
 
         final ListAdapter listadapter = this;
@@ -347,10 +361,12 @@ public class BusStopTime extends AppCompatActivity {
             q = ArrivalAdapter.get(position);
             holder.Arrival.setId(position);
 
+            // Display bus service
             if (holder.BusService != null) {
                 holder.BusService.setText(p.get("ServiceNo"));
             }
 
+            // Display arrival time
             if (holder.Arrival != null) {
                 if (q.get("Arrival1") != null && refreshStatus == 1) {          // Click to update
                     holder.spinner.setVisibility(View.GONE);
@@ -397,6 +413,7 @@ public class BusStopTime extends AppCompatActivity {
                 }
             }
 
+            // OnClickListener to update bus arrival time
             holder.Arrival.setTag(position);
             holder.Arrival.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -439,6 +456,9 @@ public class BusStopTime extends AppCompatActivity {
         }
     }
 
+    /**
+     * Function to convert actual time to number of minutes
+     */
     public String MessageDisplay(String status, long queryTime, String arrival) {
         String display = null;
         if (status.equals("In Operation") && (arrival.equals("") || arrival.equals("null")))
@@ -464,6 +484,9 @@ public class BusStopTime extends AppCompatActivity {
         return display;
     }
 
+    /**
+     * Function to sort data in ascending order
+     */
     class MapComparator implements Comparator<HashMap<String, String>> {
         private final String key;
 
@@ -480,6 +503,9 @@ public class BusStopTime extends AppCompatActivity {
         }
     }
 
+    /**
+     * Function to check if the value is integer
+     */
     public static boolean isInteger(String s, int radix) {
         if (s.isEmpty()) return false;
         for (int i = 0; i < s.length(); i++) {
@@ -492,6 +518,9 @@ public class BusStopTime extends AppCompatActivity {
         return true;
     }
 
+    /**
+     * Function to check if the phone is online or offline
+     */
     public boolean isOnline() {
         ConnectivityManager cm =
                 (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);

@@ -143,7 +143,6 @@ public class MainActivity extends AppCompatActivity implements
 
     /**
      * If connected get lat and long
-     *
      */
     @Override
     @SuppressWarnings({"ResourceType"})
@@ -199,8 +198,6 @@ public class MainActivity extends AppCompatActivity implements
 
     /**
      * If locationChanges change lat and long
-     *
-     *
      * @param location
      */
     @Override

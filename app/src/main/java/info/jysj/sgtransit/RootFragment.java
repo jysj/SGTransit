@@ -8,7 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 /**
- * Example about replacing fragments inside a ViewPager. I'm using
+ * Replacing fragments inside a ViewPager. I'm using
  * android-support-v7 to maximize the compatibility.
  */
 
